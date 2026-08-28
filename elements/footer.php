@@ -7,7 +7,7 @@
 
         <!-- Brand -->
         <div class="col-lg-4">
-          <a href="index.html" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-footer.png" alt="NexVera" class="footer-logo-img" width="260" height="auto"></a>
+          <a href="index.php" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-footer.png" alt="NexVera" class="footer-logo-img" width="260" height="auto"></a>
           <p class="footer-desc">Building the digital infrastructure of tomorrow from AI-powered platforms to enterprise
             web applications.</p>
           <div class="footer-social">
@@ -23,22 +23,22 @@
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Company</div>
           <ul class="footer-links">
-            <li><a href="about.html" class="footer-link">About Us</a></li>
-            <li><a href="team.html" class="footer-link">Our Team</a></li>
-            <li><a href="portfolio.html" class="footer-link">Portfolio</a></li>
-            <li><a href="blog.html" class="footer-link">Blog</a></li>
-            <li><a href="contact.html" class="footer-link">Careers</a></li>
+            <li><a href="about.php" class="footer-link">About Us</a></li>
+            <li><a href="team.php" class="footer-link">Our Team</a></li>
+            <li><a href="portfolio.php" class="footer-link">Portfolio</a></li>
+            <li><a href="blog.php" class="footer-link">Blog</a></li>
+            <li><a href="contact.php" class="footer-link">Careers</a></li>
           </ul>
         </div>
 
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Services</div>
           <ul class="footer-links">
-            <li><a href="service-single.html" class="footer-link">Web Development</a></li>
-            <li><a href="service-single.html" class="footer-link">Mobile Apps</a></li>
-            <li><a href="service-single.html" class="footer-link">AI & ML</a></li>
-            <li><a href="service-single.html" class="footer-link">Cloud & DevOps</a></li>
-            <li><a href="service-single.html" class="footer-link">UI/UX Design</a></li>
+            <li><a href="service-single.php" class="footer-link">Web Development</a></li>
+            <li><a href="service-single.php" class="footer-link">Mobile Apps</a></li>
+            <li><a href="service-single.php" class="footer-link">AI & ML</a></li>
+            <li><a href="service-single.php" class="footer-link">Cloud & DevOps</a></li>
+            <li><a href="service-single.php" class="footer-link">UI/UX Design</a></li>
           </ul>
         </div>
 
@@ -79,7 +79,7 @@
   <div class="info-panel">
     <button class="info-panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
     <div class="info-panel-logo">
-        <a href="index.html" class="navbar-brand text-decoration-none">
+        <a href="index.php" class="navbar-brand text-decoration-none">
           <img src="assets/img/logo.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
         </a>
     </div>
@@ -181,4 +181,4 @@
 
 </body>
 
-</html>
+</php>
