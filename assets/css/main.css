@@ -555,16 +555,12 @@ p {
 }
 
 /* Navbar logo image */
-.navbar-logo-img {
-  height: 36px;
-  width: auto;
+.navbar-logo-img { 
   display: block;
 }
 
 /* Footer logo image */
-.footer-logo-img {
-  height: 40px;
-  width: auto;
+.footer-logo-img { 
   display: block;
   margin-bottom: 1.25rem;
 }
