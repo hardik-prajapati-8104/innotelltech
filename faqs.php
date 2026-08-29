@@ -21,287 +21,392 @@
     </div>
   </section>
 
-  <!-- FAQ Section -->
-  <section class="section-py">
-    <div class="container">
-      <div class="row g-5">
+    <?php
 
-        <!-- Sidebar -->
-        <div class="col-lg-3 d-none d-lg-block" data-aos="fade-right">
-          <div class="faq-cat-sidebar">
-            <div class="faq-cat-title">Browse by Topic</div>
-            <a href="#faq-general" class="faq-cat-link active"><i class="fa-solid fa-circle-question"></i> General</a>
-            <a href="#faq-pricing" class="faq-cat-link"><i class="fa-solid fa-credit-card"></i> Pricing &amp; Billing</a>
-            <a href="#faq-process" class="faq-cat-link"><i class="fa-solid fa-list-check"></i> Process &amp; Delivery</a>
-            <a href="#faq-technical" class="faq-cat-link"><i class="fa-solid fa-code"></i> Technical</a>
-            <a href="#faq-support" class="faq-cat-link"><i class="fa-solid fa-headset"></i> Support</a>
-          </div>
+          $faqCategories = [
+
+              [
+                  'id'    => 'general',
+                  'title' => 'General',
+                  'icon'  => 'fa-solid fa-circle-question',
+                  'faqs'  => [
+
+                      [
+                          'question' => 'What does Innotell Tech do?',
+                          'answer'   => 'Innotell Tech provides end-to-end technology solutions that help businesses design, develop, modernize, and scale their digital operations. Our expertise includes web and mobile applications, custom software, AI solutions, cloud technologies, cybersecurity, and data-driven systems.'
+                      ],
+
+                      [
+                          'question' => 'What types of businesses do you work with?',
+                          'answer'   => 'We work with startups, growing businesses, and established organizations looking to build new digital products, improve existing systems, automate processes, or adopt modern technologies that support their business objectives.'
+                      ],
+
+                      [
+                          'question' => 'Can Innotell Tech work as an extension of our internal team?',
+                          'answer'   => 'Yes. Our specialists can collaborate closely with your internal teams and stakeholders, providing the technical expertise needed to accelerate delivery while maintaining clear communication and alignment with your business goals.'
+                      ],
+
+                      [
+                          'question' => 'Do you provide complete end-to-end technology solutions?',
+                          'answer'   => 'Yes. Depending on your requirements, we can support your project from discovery and strategy through design, development, testing, deployment, and ongoing optimization and support.'
+                      ]
+
+                  ]
+              ],
+
+
+              [
+                  'id'    => 'pricing',
+                  'title' => 'Pricing & Billing',
+                  'icon'  => 'fa-solid fa-credit-card',
+                  'faqs'  => [
+
+                      [
+                          'question' => 'How is project pricing determined?',
+                          'answer'   => 'Pricing is based on factors such as project scope, technical complexity, delivery timeline, required expertise, integrations, and long-term support requirements. We recommend the most suitable engagement structure after understanding your objectives.'
+                      ],
+
+                      [
+                          'question' => 'Do you offer fixed-price projects?',
+                          'answer'   => 'Yes. Fixed-price engagements can be suitable for projects with clearly defined requirements, deliverables, and timelines. For evolving products or long-term development, a dedicated team or flexible engagement model may be more appropriate.'
+                      ],
+
+                      [
+                          'question' => 'Can the scope of a project change during development?',
+                          'answer'   => 'Yes. We understand that business requirements can evolve. Scope changes are reviewed transparently to assess their impact on timelines, resources, and cost before implementation.'
+                      ],
+
+                      [
+                          'question' => 'Do you provide a project estimate before development begins?',
+                          'answer'   => 'Yes. After reviewing your requirements, we can provide a clear proposal outlining the recommended approach, scope, estimated timeline, and engagement structure.'
+                      ]
+
+                  ]
+              ],
+
+
+              [
+                  'id'    => 'process',
+                  'title' => 'Process & Delivery',
+                  'icon'  => 'fa-solid fa-list-check',
+                  'faqs'  => [
+
+                      [
+                          'question' => 'How does a project with Innotell Tech get started?',
+                          'answer'   => 'We begin by understanding your business objectives, challenges, users, technical requirements, and expected outcomes. This discovery phase helps us define the right solution and create a clear delivery roadmap.'
+                      ],
+
+                      [
+                          'question' => 'What development methodology do you use?',
+                          'answer'   => 'We follow flexible, iterative delivery practices and adapt the workflow to the needs of each project. This approach enables regular progress reviews, continuous feedback, quality assurance, and transparent collaboration.'
+                      ],
+
+                      [
+                          'question' => 'How will we track project progress?',
+                          'answer'   => 'We establish clear communication channels, milestones, and regular progress updates. Stakeholders receive visibility into completed work, upcoming priorities, key decisions, and project progress throughout the engagement.'
+                      ],
+
+                      [
+                          'question' => 'How do you handle testing and quality assurance?',
+                          'answer'   => 'Quality assurance is integrated throughout the development lifecycle. Depending on the project, this may include functional testing, integration testing, performance testing, security reviews, and user acceptance validation.'
+                      ]
+
+                  ]
+              ],
+
+
+              [
+                  'id'    => 'technical',
+                  'title' => 'Technical',
+                  'icon'  => 'fa-solid fa-code',
+                  'faqs'  => [
+
+                      [
+                          'question' => 'What technologies does Innotell Tech work with?',
+                          'answer'   => 'Our technology capabilities span modern web and mobile development, backend systems, cloud infrastructure, APIs, artificial intelligence, automation, cybersecurity, and data engineering. Technology choices are based on your project requirements and long-term goals.'
+                      ],
+
+                      [
+                          'question' => 'Can you work with our existing application or software?',
+                          'answer'   => 'Yes. We can assess, improve, extend, modernize, or integrate with existing applications. Our process begins with understanding the current architecture, identifying opportunities and risks, and recommending a practical improvement strategy.'
+                      ],
+
+                      [
+                          'question' => 'Can you integrate third-party systems and APIs?',
+                          'answer'   => 'Yes. We develop secure integrations between applications, business platforms, payment systems, cloud services, CRM platforms, and other third-party services where technically appropriate.'
+                      ],
+
+                      [
+                          'question' => 'How do you approach application security?',
+                          'answer'   => 'Security is considered throughout the solution lifecycle. We apply appropriate practices for secure development, access management, data protection, dependency management, testing, and infrastructure configuration based on the project requirements.'
+                      ]
+
+                  ]
+              ],
+
+
+              [
+                  'id'    => 'support',
+                  'title' => 'Support',
+                  'icon'  => 'fa-solid fa-headset',
+                  'faqs'  => [
+
+                      [
+                          'question' => 'Do you provide support after project launch?',
+                          'answer'   => 'Yes. We can provide ongoing support after launch, including maintenance, issue resolution, security updates, performance optimization, monitoring, and future feature development.'
+                      ],
+
+                      [
+                          'question' => 'Can you continue developing new features after launch?',
+                          'answer'   => 'Absolutely. Digital products often evolve after launch. Our team can continue supporting your roadmap with new features, integrations, enhancements, and technology improvements as your business requirements grow.'
+                      ],
+
+                      [
+                          'question' => 'How can we report a technical issue?',
+                          'answer'   => 'Support processes are defined based on the engagement and service requirements. Your team will have a clear channel for reporting issues and communicating priorities with the appropriate technical team.'
+                      ],
+
+                      [
+                          'question' => 'Can you maintain software developed by another company?',
+                          'answer'   => 'Yes. We can review an existing application and, where appropriate, take responsibility for ongoing maintenance, improvements, technical modernization, and further development.'
+                      ]
+
+                  ]
+              ]
+
+          ];
+
+
+          // =============================================
+          // PAGINATION SETTINGS
+          // One FAQ category per page
+          // =============================================
+
+          $categoriesPerPage = 1;
+
+          $totalCategories = count($faqCategories);
+
+          $totalPages = (int) ceil(
+              $totalCategories / $categoriesPerPage
+          );
+
+
+          // Current Page
+          $currentPage = isset($_GET['page'])
+              ? (int) $_GET['page']
+              : 1;
+
+
+          // Prevent Invalid Pages
+          $currentPage = max(
+              1,
+              min($currentPage, $totalPages)
+          );
+
+
+          // Calculate Offset
+          $offset = ($currentPage - 1) * $categoriesPerPage;
+
+
+          // Get Current Category
+          $currentCategories = array_slice(
+              $faqCategories,
+              $offset,
+              $categoriesPerPage
+          );
+
+    ?>
+
+    <section class="section-py" id="faq-section">
+
+        <div class="container">
+
+            <div class="row g-5">
+              
+                <!-- Sidebar -->
+                <div class="col-lg-3 d-none d-lg-block">
+
+                    <div class="faq-cat-sidebar">
+
+                        <div class="faq-cat-title">
+                            Browse by Topic
+                        </div>
+
+                        <?php foreach ($faqCategories as $index => $category): ?>
+
+                            <a href="javascript:void(0)" class="faq-cat-link <?= $index === 0 ? 'active' : '' ?>" data-category="<?= htmlspecialchars($category['id']) ?>">
+                                <i class="<?= htmlspecialchars($category['icon']) ?>"></i>
+                                <?= htmlspecialchars($category['title']) ?>
+                            </a>
+
+                        <?php endforeach; ?>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ Content -->
+                <div class="col-lg-9">
+
+                    <?php foreach ($faqCategories as $categoryIndex => $category): ?>
+
+                        <div class="faq-section faq-category-content <?= $categoryIndex !== 0 ? 'd-none' : '' ?>" id="faq-<?= htmlspecialchars($category['id']) ?>" data-category="<?= htmlspecialchars($category['id']) ?>">
+
+                            <!-- Category Title -->
+                            <div class="faq-section-label">
+                                <i class="<?= htmlspecialchars($category['icon']) ?>"></i>
+                                <?= htmlspecialchars($category['title']) ?>
+                            </div>
+
+                            <!-- Accordion -->
+                            <div class="accordion faq-accordion" id="faqAccordion<?= $categoryIndex ?>">
+
+
+                                <?php foreach ($category['faqs'] as $faqIndex => $faq): ?>
+
+                                    <?php
+                                        $collapseId = 'collapse-' . $category['id'] . '-' . $faqIndex;
+                                        $isFirst = $faqIndex === 0;
+                                    ?>
+
+                                    <div class="accordion-item faq-item">
+
+                                        <h2 class="accordion-header">
+
+                                            <button class="accordion-button faq-btn <?= !$isFirst ? 'collapsed' : '' ?>" type="button" data-bs-toggle="collapse" data-bs-target="#<?= $collapseId ?>">
+                                                <?= htmlspecialchars($faq['question']) ?>
+                                            </button>
+
+                                        </h2>
+
+
+                                        <div id="<?= $collapseId ?>" class="accordion-collapse collapse <?= $isFirst ? 'show' : '' ?>" data-bs-parent="#faqAccordion<?= $categoryIndex ?>">
+
+                                            <div class="accordion-body faq-body">
+                                                <?= htmlspecialchars($faq['answer']) ?>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                <?php endforeach; ?>
+
+
+                            </div>
+
+                        </div>
+
+                    <?php endforeach; ?>
+
+
+                    <!-- AJAX STYLE PAGINATION -->
+                    <nav class="faq-pagination mt-5">
+
+                        <ul class="pagination justify-content-center mb-0">
+
+                            <!-- Previous -->
+                            <li class="page-item">
+                                <button type="button" class="page-link faq-prev">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+                            </li>
+
+                            <!-- Dynamic Page Numbers -->
+                            <?php foreach ($faqCategories as $index => $category): ?>
+
+                                <li class="page-item <?= $index === 0 ? 'active' : '' ?>">
+
+                                    <button type="button" class="page-link faq-page-btn" data-index="<?= $index ?>" data-category="<?= htmlspecialchars($category['id']) ?>">
+                                        <?= $index + 1 ?>
+                                    </button>
+
+                                </li>
+
+                            <?php endforeach; ?>
+
+                            <!-- Next -->
+                            <li class="page-item">
+
+                                <button type="button" class="page-link faq-next">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+
+                            </li>
+
+                        </ul>
+
+                    </nav>
+                    <!-- Contact -->
+                    <div class="faq-contact-box">
+
+                        <h2 class="h5">Still Have Questions?</h2>
+                        <p>Our technology experts are ready to help you find the right solution for your business requirements.</p>
+                        <a href="contact.php" class="btn-primary-custom">
+                            Talk to Our Experts
+                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <!-- Accordion Sections -->
-        <div class="col-lg-9">
+    </section>
 
-          <!-- General -->
-          <div class="faq-section" id="faq-general" data-aos="fade-up">
-            <div class="faq-section-label"><i class="fa-solid fa-circle-question"></i> General</div>
-            <div class="accordion faq-accordion" id="faqGeneral">
+    <style>
+      .faq-pagination .pagination {
+          gap: 8px;
+      }
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#gen1">
-                    What exactly does NexVera do?
-                  </button>
-                </h2>
-                <div id="gen1" class="accordion-collapse collapse show" data-bs-parent="#faqGeneral">
-                  <div class="accordion-body faq-body">NexVera is a technology solutions company. We design, build, and scale digital products — from web and mobile applications to AI-powered platforms and cloud infrastructure. We embed directly into your team as senior engineers, architects, and product strategists, without the overhead of a traditional agency.</div>
-                </div>
-              </div>
+      .faq-pagination .page-item {
+          margin: 0;
+      }
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen2">
-                    Do you offer a trial or discovery sprint before committing?
-                  </button>
-                </h2>
-                <div id="gen2" class="accordion-collapse collapse" data-bs-parent="#faqGeneral">
-                  <div class="accordion-body faq-body">Yes — all plans include a 2-week paid trial sprint. This lets us validate fit, set up workflows, and deliver something tangible before you make a longer commitment. There is no obligation to continue after the trial.</div>
-                </div>
-              </div>
+      .faq-pagination .page-link {
+          width: 44px;
+          height: 44px;
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen3">
-                    Who owns the IP and code we build together?
-                  </button>
-                </h2>
-                <div id="gen3" class="accordion-collapse collapse" data-bs-parent="#faqGeneral">
-                  <div class="accordion-body faq-body">You do. 100%. All intellectual property, source code, designs, and deliverables are fully assigned to you at the end of each sprint. We sign an IP assignment agreement before work begins.</div>
-                </div>
-              </div>
+          display: flex;
+          align-items: center;
+          justify-content: center;
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen4">
-                    How long has NexVera been operating?
-                  </button>
-                </h2>
-                <div id="gen4" class="accordion-collapse collapse" data-bs-parent="#faqGeneral">
-                  <div class="accordion-body faq-body">NexVera was founded in 2012. Over the past 12+ years we have delivered 400+ projects across fintech, healthtech, e-commerce, and enterprise SaaS. Our leadership team has an average of 15 years of industry experience.</div>
-                </div>
-              </div>
+          border-radius: 10px !important;
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gen5">
-                    Are you an agency, a consultancy, or a product studio?
-                  </button>
-                </h2>
-                <div id="gen5" class="accordion-collapse collapse" data-bs-parent="#faqGeneral">
-                  <div class="accordion-body faq-body">A bit of all three, depending on what you need. For some clients we act as an embedded engineering team (agency model). For others we advise on architecture and technology strategy (consultancy). For early-stage companies we co-create the product from scratch (product studio). We adapt to your context.</div>
-                </div>
-              </div>
+          border: 1px solid #dce3ec;
+          background: #ffffff;
 
-            </div>
-          </div>
+          color: #244f86;
+          font-weight: 600;
 
-          <!-- Pricing & Billing -->
-          <div class="faq-section" id="faq-pricing" data-aos="fade-up">
-            <div class="faq-section-label"><i class="fa-solid fa-credit-card"></i> Pricing &amp; Billing</div>
-            <div class="accordion faq-accordion" id="faqPricing">
+          transition: all 0.3s ease;
+      }
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#price1">
-                    Do you work on fixed-price projects?
-                  </button>
-                </h2>
-                <div id="price1" class="accordion-collapse collapse show" data-bs-parent="#faqPricing">
-                  <div class="accordion-body faq-body">For well-scoped projects with clear requirements and defined deliverables, yes. We offer fixed-price engagements for MVPs, design sprints, and specific feature builds. For evolving or complex platforms we typically recommend a retainer model for its flexibility and accountability.</div>
-                </div>
-              </div>
+      .faq-pagination .page-link:hover {
+          background: #244f86;
+          border-color: #244f86;
+          color: #ffffff;
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price2">
-                    What if I need services not listed in my plan?
-                  </button>
-                </h2>
-                <div id="price2" class="accordion-collapse collapse" data-bs-parent="#faqPricing">
-                  <div class="accordion-body faq-body">We are flexible. If you need security auditing, data science, technical writing, or anything outside your plan's scope, we can either upgrade your plan or add specific services on an ad-hoc basis. Talk to us and we'll find the right structure.</div>
-                </div>
-              </div>
+          transform: translateY(-2px);
+      }
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price3">
-                    Can I scale my team up or down during a project?
-                  </button>
-                </h2>
-                <div id="price3" class="accordion-collapse collapse" data-bs-parent="#faqPricing">
-                  <div class="accordion-body faq-body">Absolutely. We build this flexibility into every engagement. You can add or reduce engineers with 2 weeks' notice. This makes NexVera ideal for projects with variable scope or delivery sprints.</div>
-                </div>
-              </div>
+      .faq-pagination .page-item.active .page-link {
+          background: #244f86;
+          border-color: #244f86;
 
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price4">
-                    Are there any setup fees or hidden costs?
-                  </button>
-                </h2>
-                <div id="price4" class="accordion-collapse collapse" data-bs-parent="#faqPricing">
-                  <div class="accordion-body faq-body">No setup fees, no hidden costs. What you see on the pricing page is what you pay. Any optional add-ons (e.g. premium SLAs, additional cloud environments) are discussed and agreed in advance before they appear on an invoice.</div>
-                </div>
-              </div>
+          color: #ffffff;
 
-            </div>
-          </div>
+          box-shadow: 0 8px 20px rgba(36, 79, 134, 0.18);
+      }
 
-          <!-- Process & Delivery -->
-          <div class="faq-section" id="faq-process" data-aos="fade-up">
-            <div class="faq-section-label"><i class="fa-solid fa-list-check"></i> Process &amp; Delivery</div>
-            <div class="accordion faq-accordion" id="faqProcess">
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#proc1">
-                    How do projects typically get started?
-                  </button>
-                </h2>
-                <div id="proc1" class="accordion-collapse collapse show" data-bs-parent="#faqProcess">
-                  <div class="accordion-body faq-body">We start with a scoping call (30–60 min) to understand your goals, constraints, and timeline. We then prepare a tailored proposal with a recommended team composition, engagement model, and projected roadmap. Once agreed, we kick off with an onboarding sprint to align on tooling, communication rhythms, and first deliverables.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#proc2">
-                    What methodology do you use — Agile, Scrum, Kanban?
-                  </button>
-                </h2>
-                <div id="proc2" class="accordion-collapse collapse" data-bs-parent="#faqProcess">
-                  <div class="accordion-body faq-body">We default to two-week Agile sprints with structured ceremonies — sprint planning, daily standups, sprint reviews, and retrospectives. If your team already uses Kanban or a custom workflow, we adapt to fit. We optimise for delivery, not adherence to a specific label.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#proc3">
-                    How do you handle project handoffs and documentation?
-                  </button>
-                </h2>
-                <div id="proc3" class="accordion-collapse collapse" data-bs-parent="#faqProcess">
-                  <div class="accordion-body faq-body">Every engagement ends with a structured handoff: full codebase documentation, architecture decision records (ADRs), deployment runbooks, and a knowledge-transfer session with your team. We want you to feel entirely independent after we leave — or confident enough to bring us back for the next phase.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#proc4">
-                    Do you sign NDAs?
-                  </button>
-                </h2>
-                <div id="proc4" class="accordion-collapse collapse" data-bs-parent="#faqProcess">
-                  <div class="accordion-body faq-body">Yes, we sign mutual NDAs before any substantive discussions. We understand that your ideas and product details are sensitive. Confidentiality is a baseline expectation, not an extra.</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Technical -->
-          <div class="faq-section" id="faq-technical" data-aos="fade-up">
-            <div class="faq-section-label"><i class="fa-solid fa-code"></i> Technical</div>
-            <div class="accordion faq-accordion" id="faqTechnical">
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#tech1">
-                    What technologies and stacks do you work with?
-                  </button>
-                </h2>
-                <div id="tech1" class="accordion-collapse collapse show" data-bs-parent="#faqTechnical">
-                  <div class="accordion-body faq-body">We work across a broad range of stacks — React, Next.js, Vue, Angular on the frontend; Node.js, Python, Go, Java, and .NET on the backend; React Native and Flutter for mobile; AWS, GCP, and Azure for cloud; and PostgreSQL, MongoDB, Redis, and Kafka for data. We recommend the right tool for the job, not the one we're most comfortable with.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tech2">
-                    Can you work with our existing codebase?
-                  </button>
-                </h2>
-                <div id="tech2" class="accordion-collapse collapse" data-bs-parent="#faqTechnical">
-                  <div class="accordion-body faq-body">Absolutely. We regularly join projects mid-lifecycle. We start with a technical audit to understand the current architecture, identify risks, and surface quick wins. From there, we contribute incrementally — improving quality and velocity without disrupting what's already working.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tech3">
-                    How do you approach security and compliance?
-                  </button>
-                </h2>
-                <div id="tech3" class="accordion-collapse collapse" data-bs-parent="#faqTechnical">
-                  <div class="accordion-body faq-body">Security is embedded into our process, not bolted on at the end. We follow OWASP guidelines, conduct dependency audits, implement least-privilege IAM policies, and offer SOC 2-aligned delivery practices. For regulated industries we have experience with HIPAA, GDPR, and PCI-DSS requirements.</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Support -->
-          <div class="faq-section mb-0" id="faq-support" data-aos="fade-up">
-            <div class="faq-section-label"><i class="fa-solid fa-headset"></i> Support</div>
-            <div class="accordion faq-accordion" id="faqSupport">
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#sup1">
-                    How do you handle time zones and communication?
-                  </button>
-                </h2>
-                <div id="sup1" class="accordion-collapse collapse show" data-bs-parent="#faqSupport">
-                  <div class="accordion-body faq-body">Our teams are distributed across Europe, North America, and Asia — giving us natural overlap with almost any time zone. We use async-first practices (Loom, Slack threads, documented decisions) alongside regular live syncs timed to your working hours.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup2">
-                    What happens if something breaks in production?
-                  </button>
-                </h2>
-                <div id="sup2" class="accordion-collapse collapse" data-bs-parent="#faqSupport">
-                  <div class="accordion-body faq-body">Growth and Enterprise plans include on-call support with defined SLAs (2-hour acknowledgement, 8-hour resolution for P1 incidents). We use PagerDuty or your preferred alerting stack. For Starter plans, issues are handled during business hours with a next-day SLA.</div>
-                </div>
-              </div>
-
-              <div class="accordion-item faq-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup3">
-                    Do you offer post-launch maintenance?
-                  </button>
-                </h2>
-                <div id="sup3" class="accordion-collapse collapse" data-bs-parent="#faqSupport">
-                  <div class="accordion-body faq-body">Yes. We offer ongoing maintenance retainers covering bug fixes, dependency updates, security patches, performance monitoring, and incremental feature development. Many clients transition from a build engagement into a maintenance retainer once their product is live.</div>
-                </div>
-              </div>
-
-            </div>
-
-            <!-- Still have questions box -->
-            <div class="faq-contact-box" data-aos="fade-up">
-              <h2 class="h5">Still have a question?</h2>
-              <p>Our team is happy to answer anything that's not covered here. Expect a reply within one business day.</p>
-              <a href="contact.html" class="btn-primary-custom">Contact Us <i class="fa-solid fa-arrow-right ms-1"></i></a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
+      .faq-pagination .page-item.disabled .page-link {
+          opacity: 0.45;
+          pointer-events: none;
+      }
+    </style>
 
   <!-- CTA -->
   <section class="cta-section section-py">
@@ -309,12 +414,12 @@
     <div class="cta-blob cta-blob-2"></div>
     <div class="container">
       <div class="cta-content text-center" data-aos="fade-up">
-        <div class="cta-tag">Ready to Start?</div>
-        <h2 class="cta-title">Let's build something <br class="d-none d-md-block"> great together.</h2>
-        <p class="cta-text">Whether you have a clear brief or just an idea, we'll help you shape it into a plan and deliver it with precision.</p>
+        <div class="cta-tag">READY TO TRANSFORM?</div>
+        <h2 class="cta-title">Turn Your Vision Into a <br class="d-none d-md-block"> Powerful Digital Solution. </h2>
+        <p class="cta-text">Partner with Innotell Tech to transform complex challenges into innovative, scalable, and high-performing technology solutions built for long-term growth.</p>
         <div class="cta-actions">
-          <a href="contact.html" class="btn-white-custom">Schedule a Call</a>
-          <a href="pricing.html" class="btn-ghost-white">View Pricing</a>
+          <a href="contact.html" class="btn-white-custom">Talk to Our Experts</a>
+          <a href="pricing.html" class="btn-ghost-white">View Our Solutions</a>
         </div>
       </div>
     </div>

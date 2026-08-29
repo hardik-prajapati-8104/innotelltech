@@ -18,7 +18,7 @@
         <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-duration="800">
           <div class="hero-tag">
             <span class="dot"></span>
-            Trusted by 2,000+ Companies Worldwide
+            Trusted Technology Partner for Growing Businesses
           </div>
 
           <h1 class="hero-title">
@@ -30,8 +30,7 @@
           </h1>
 
           <p class="hero-description">
-            NexVera is a full-stack technology company delivering cutting-edge digital solutions from scalable web
-            applications to AI-powered platforms that drive real business growth.
+            INNOTELL TECH is a technology and IT solutions company delivering innovative, scalable, and reliable digital solutions. From custom software and web development to business automation and digital transformation, we turn complex business challenges into powerful digital experiences.
           </p>
 
           <div class="hero-actions">
@@ -46,12 +45,12 @@
 
           <div class="hero-stats">
             <div class="hero-stat-item">
-              <div class="hero-stat-number">12+</div>
+              <div class="hero-stat-number">10+</div>
               <div class="hero-stat-label">Years Experience</div>
             </div>
             <div class="hero-stat-divider"></div>
             <div class="hero-stat-item">
-              <div class="hero-stat-number">400+</div>
+              <div class="hero-stat-number">250+</div>
               <div class="hero-stat-label">Projects Delivered</div>
             </div>
             <div class="hero-stat-divider"></div>
@@ -68,18 +67,18 @@
 
             <div class="bento-tile bento-photo-lg">
               <img src="assets/img/team-culture.jpg" alt="NexVera team building digital products" loading="eager" />
-              <span class="bento-badge"><i class="fa-solid fa-circle-check"></i> ISO 27001 Certified</span>
+              <span class="bento-badge"><i class="fa-solid fa-circle-check"></i>Quality-Driven Solutions</span>
             </div>
 
             <div class="bento-tile bento-accent">
               <div class="bento-accent-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.98.5-2.5 0-3l-3-3c-.5-.5-2.02-.71-3 0z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg></div>
-              <div class="bento-accent-num">+340%</div>
-              <div class="bento-accent-label">Faster performance after launch</div>
+              <div class="bento-accent-num">Scalable & Reliable</div>
+              <div class="bento-accent-label">Technology built for long-term growth</div>
             </div>
 
             <div class="bento-tile bento-photo-sm">
               <img src="assets/img/intro/intro-1.jpg" alt="AI and machine learning" loading="lazy" />
-              <span class="bento-tag">AI / ML</span>
+              <span class="bento-tag">AI/Technology Card</span>
             </div>
 
             <div class="bento-tile bento-dark">
@@ -91,15 +90,15 @@
                   <img src="assets/img/avatars/user-4.jpg" alt="" loading="lazy" />
                 </div>
                 <div class="bento-clients-meta">
-                  <div class="bento-clients-num">2,000+ clients</div>
+                  <div class="bento-clients-num">Trusted Technology Partner</div>
                   <div class="bento-stars">
                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                       class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    <span>4.9/5</span>
+                    <span>5.0/5 Client Experience</span>
                   </div>
                 </div>
               </div>
-              <a href="https://www.youtube.com/watch?v=ypTcyx9OqdA" class="bento-play glightbox"
+              <a href="javascript:void();" class="bento-play glightbox"
                 aria-label="Watch overview">
                 <i class="fa-solid fa-play"></i>
               </a>
@@ -156,8 +155,8 @@
         <div class="col-lg-6" data-aos="fade-right">
           <div class="about-image-wrap">
             <div class="about-exp-badge">
-              <div class="about-exp-number">12+</div>
-              <div class="about-exp-text">Years of<br>Excellence</div>
+              <div class="about-exp-number">100%</div>
+              <div class="about-exp-text">Business-Focused<br>Solutions</div>
             </div>
             <div class="about-image-main">
               <img src="assets/img/about/about-1.jpg" alt="Our Team at Work" loading="lazy" />
@@ -170,35 +169,31 @@
 
         <!-- Content -->
         <div class="col-lg-6 ps-lg-5" data-aos="fade-left" data-aos-delay="150">
-          <div class="section-tag">About NexVera</div>
-          <h2 class="section-title">We Turn Vision Into <span class="text-gradient">Digital Reality</span></h2>
+          <div class="section-tag">ABOUT INNOTELL TECH</div>
+          <h2 class="section-title">We Turn Ideas Into <span class="text-gradient">Digital Solutions</span></h2>
           <p class="section-subtitle mb-4">
-            Founded in 2012, NexVera has been at the forefront of technological innovation helping startups and
-            enterprises build the digital infrastructure they need to compete in a rapidly evolving world.
+            INNOTELL TECH is a forward-thinking technology company delivering innovative, reliable, and scalable digital solutions for businesses of all sizes. We combine technology, creativity, and industry expertise to transform ideas into powerful digital experiences that create lasting business value.
           </p>
 
           <div class="about-checkpoints">
             <div class="about-checkpoint">
               <div class="checkpoint-icon"><i class="fa-solid fa-check-double"></i></div>
-              <p class="checkpoint-text"><strong>Expert Engineering Team</strong> 120+ engineers spanning full-stack,
-                cloud, AI, and mobile disciplines.</p>
+              <p class="checkpoint-text"><strong>Technology Expertise</strong> Our skilled team delivers modern solutions across software development, web technologies, cloud, automation, and digital platforms.</p>
             </div>
             <div class="about-checkpoint">
               <div class="checkpoint-icon"><i class="fa-solid fa-check-double"></i></div>
-              <p class="checkpoint-text"><strong>Agile Methodology</strong> Sprint-based delivery with transparent
-                progress tracking and weekly demos.</p>
+              <p class="checkpoint-text"><strong>Business-Focused Approach</strong> We understand your business goals and build technology solutions tailored to your unique requirements, workflows, and growth plans.</p>
             </div>
             <div class="about-checkpoint">
               <div class="checkpoint-icon"><i class="fa-solid fa-check-double"></i></div>
-              <p class="checkpoint-text"><strong>Global Coverage</strong> Offices across 3 continents with 24/7 support
-                for enterprise clients.</p>
+              <p class="checkpoint-text"><strong>Scalable & Reliable Solutions</strong> From startups to growing enterprises, we create secure, high-performance solutions designed to evolve with your business.</p>
             </div>
           </div>
 
           <div class="d-flex gap-3 flex-wrap mt-4">
-            <a href="about.html" class="btn-primary-custom">Explore Our Story <i
+            <a href="about.php" class="btn-primary-custom">Discover Our Story<i
                 class="fa-solid fa-arrow-right"></i></a>
-            <a href="team.html" class="btn-outline-custom">Meet the Team</a>
+            <a href="team.php" class="btn-outline-custom">Our Services</a>
           </div>
         </div>
 
@@ -215,156 +210,177 @@
       <div class="row justify-content-between align-items-end mb-5">
         <div class="col-lg-6" data-aos="fade-right">
           <div class="section-tag">What We Do</div>
-          <h2 class="section-title">Services Built for <span class="text-gradient">Modern Business</span></h2>
+          <h2 class="section-title">Technology Solutions Built for<span class="text-gradient">Modern Businesses</span></h2>
         </div>
         <div class="col-lg-5" data-aos="fade-left">
-          <p class="section-subtitle">From rapid MVP development to enterprise-scale platforms we deliver end-to-end
-            technology services that accelerate your growth.</p>
+          <p class="section-subtitle">From custom software development to business automation and digital transformation, we deliver scalable technology solutions designed to simplify operations, improve efficiency, and accelerate business growth.</p>
           <a href="services.html" class="service-link mt-3 d-inline-flex">View All Services <i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
 
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
-          <div class="service-card">
-            <div class="service-icon">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <rect x="2" y="3" width="20" height="14" rx="2" />
-                <path d="M2 7h20" />
-                <circle cx="5" cy="5" r=".75" fill="currentColor" stroke="none" />
-                <circle cx="7.5" cy="5" r=".75" fill="currentColor" stroke="none" />
-                <path d="M9 11 7 13l2 2M15 11l2 2-2 2" />
-                <path d="M8 21h8M12 17v4" />
-              </svg>
-            </div>
-            <h3 class="service-title">Web Development</h3>
-            <p class="service-text">High-performance web applications built with modern frameworks React, Next.js,
-              Node.js, and more. Scalable architecture from day one.</p>
-            <a href="service-single.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            <div class="service-features">
-              <span class="service-feature-tag">React</span>
-              <span class="service-feature-tag">Next.js</span>
-              <span class="service-feature-tag">Node.js</span>
-            </div>
-          </div>
-        </div>
+          <div class="row g-4">
 
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-card">
-            <div class="service-icon accent-bg">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <rect x="7" y="2" width="10" height="20" rx="2.5" />
-                <path d="M7 6h10M7 18h10" />
-                <circle cx="12" cy="20.5" r=".8" fill="currentColor" stroke="none" />
-                <path d="M10 10h4M10 13h3" />
-              </svg>
-            </div>
-            <h3 class="service-title">Mobile Applications</h3>
-            <p class="service-text">Native and cross-platform mobile apps for iOS and Android. Pixel-perfect UI with
-              smooth animations and offline-first architecture.</p>
-            <a href="service-single.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            <div class="service-features">
-              <span class="service-feature-tag">React Native</span>
-              <span class="service-feature-tag">Flutter</span>
-              <span class="service-feature-tag">Swift</span>
-            </div>
-          </div>
-        </div>
+                     <?php
+                          $serviceArr = [
 
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-card">
-            <div class="service-icon highlight-bg">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="3" />
-                <circle cx="4" cy="7" r="2" />
-                <circle cx="4" cy="17" r="2" />
-                <circle cx="20" cy="7" r="2" />
-                <circle cx="20" cy="17" r="2" />
-                <path d="M6 8 9.2 10.3M6 16 9.2 13.7M18 8 14.8 10.3M18 16 14.8 13.7" />
-              </svg>
-            </div>
-            <h3 class="service-title">AI & Machine Learning</h3>
-            <p class="service-text">Custom AI solutions powered by OpenAI, Hugging Face, and proprietary models.
-              Intelligent automation that learns and adapts.</p>
-            <a href="service-single.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            <div class="service-features">
-              <span class="service-feature-tag">GPT-4</span>
-              <span class="service-feature-tag">TensorFlow</span>
-              <span class="service-feature-tag">PyTorch</span>
-            </div>
-          </div>
-        </div>
+                              [
+                                  'service-title' => 'Custom Software Development',
+                                  'icon' => 'bi-code-slash',
+                                  'service-text' => 'Build secure, scalable, and customized software solutions designed around your business processes, requirements, and long-term goals.',
+                                  'service-feature-tag' => [
+                                      'Custom Software',
+                                      'Web Applications',
+                                      'Enterprise Solutions'
+                                  ],
+                              ],
 
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
-          <div class="service-card">
-            <div class="service-icon service-icon--blue">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M17 18a4 4 0 0 0 0-8h-.6A7 7 0 1 0 5 18" />
-                <path d="M9 16l3-3 3 3M12 13v8" />
-              </svg>
-            </div>
-            <h3 class="service-title">Cloud & DevOps</h3>
-            <p class="service-text">End-to-end cloud infrastructure on AWS, Azure, and GCP. CI/CD pipelines, Kubernetes
-              orchestration, and zero-downtime deployments.</p>
-            <a href="service-single.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            <div class="service-features">
-              <span class="service-feature-tag">AWS</span>
-              <span class="service-feature-tag">Docker</span>
-              <span class="service-feature-tag">K8s</span>
-            </div>
-          </div>
-        </div>
+                              [
+                                  'service-title' => 'Web Development',
+                                  'icon' => 'bi-globe2',
+                                  'service-text' => 'Create modern, responsive, and high-performance websites and web applications that strengthen your digital presence and deliver seamless user experiences.',
+                                  'service-feature-tag' => [
+                                      'Business Websites',
+                                      'Web Applications',
+                                      'E-Commerce'
+                                  ],
+                              ],
 
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-card">
-            <div class="service-icon service-icon--orange">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 7.5 12 2l10 5.5-10 5.5L2 7.5Z" />
-                <path d="M2 12l10 5.5 10-5.5" />
-                <path d="M2 16.5l10 5.5 10-5.5" />
-              </svg>
-            </div>
-            <h3 class="service-title">UI/UX Design</h3>
-            <p class="service-text">Research-driven design that converts. User flows, prototypes, and design systems
-              built in Figma with obsessive attention to detail.</p>
-            <a href="service-single.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            <div class="service-features">
-              <span class="service-feature-tag">Figma</span>
-              <span class="service-feature-tag">UX Research</span>
-              <span class="service-feature-tag">Design Systems</span>
-            </div>
-          </div>
-        </div>
+                              [
+                                  'service-title' => 'Mobile App Development',
+                                  'icon' => 'bi-phone',
+                                  'service-text' => 'Develop intuitive and reliable mobile applications that help businesses connect with customers, teams, and services across Android and iOS platforms.',
+                                  'service-feature-tag' => [
+                                      'Android',
+                                      'iOS',
+                                      'Cross-Platform'
+                                  ],
+                              ],
 
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-card">
-            <div class="service-icon service-icon--purple">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 3v18h18" />
-                <rect x="6.5" y="12" width="3" height="9" rx=".5" />
-                <rect x="11.5" y="8" width="3" height="13" rx=".5" />
-                <rect x="16.5" y="5" width="3" height="16" rx=".5" />
-              </svg>
-            </div>
-            <h3 class="service-title">Data Engineering</h3>
-            <p class="service-text">Real-time data pipelines, warehouses, and analytics dashboards. Turn raw data into
-              actionable insights with our BI solutions.</p>
-            <a href="service-single.html" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            <div class="service-features">
-              <span class="service-feature-tag">Snowflake</span>
-              <span class="service-feature-tag">dbt</span>
-              <span class="service-feature-tag">Kafka</span>
-            </div>
-          </div>
-        </div>
-      </div>
+                              [
+                                  'service-title' => 'AI & Automation Solutions',
+                                  'icon' => 'bi-robot',
+                                  'service-text' => 'Integrate intelligent automation and AI-powered capabilities to reduce repetitive tasks, improve productivity, and make business operations smarter.',
+                                  'service-feature-tag' => [
+                                      'AI Solutions',
+                                      'Automation',
+                                      'Smart Workflows'
+                                  ],
+                              ],
+
+                              [
+                                  'service-title' => 'CRM & Business Solutions',
+                                  'icon' => 'bi-people',
+                                  'service-text' => 'Develop customized CRM and business management solutions to organize customers, streamline operations, and improve internal workflows.',
+                                  'service-feature-tag' => [
+                                      'CRM Systems',
+                                      'Business Management',
+                                      'Workflow Solutions'
+                                  ],
+                              ],
+
+                              [
+                                  'service-title' => 'UI/UX Design',
+                                  'icon' => 'bi-palette',
+                                  'service-text' => 'Design intuitive, engaging, and user-focused digital experiences that combine beautiful interfaces with effortless usability and meaningful interactions.',
+                                  'service-feature-tag' => [
+                                      'UI Design',
+                                      'UX Design',
+                                      'Prototyping'
+                                  ],
+                              ],
+
+                              [
+                                  'service-title' => 'Cloud & IT Solutions',
+                                  'icon' => 'bi-cloud-check',
+                                  'service-text' => 'Implement reliable cloud and IT solutions that improve scalability, security, accessibility, and overall technology performance.',
+                                  'service-feature-tag' => [
+                                      'Cloud Solutions',
+                                      'IT Infrastructure',
+                                      'Security'
+                                  ],
+                              ],
+
+                              [
+                                  'service-title' => 'Digital Transformation',
+                                  'icon' => 'bi-arrow-repeat',
+                                  'service-text' => 'Modernize business processes with innovative technologies and connected digital solutions that improve efficiency and create new opportunities for growth.',
+                                  'service-feature-tag' => [
+                                      'Digital Strategy',
+                                      'Process Modernization',
+                                      'Technology Consulting'
+                                  ],
+                              ],
+
+                              [
+                                  'service-title' => 'IT Consulting & Support',
+                                  'icon' => 'bi-headset',
+                                  'service-text' => 'Get practical technology guidance and ongoing IT support to optimize your systems, solve technical challenges, and keep your business moving forward.',
+                                  'service-feature-tag' => [
+                                      'IT Consulting',
+                                      'Technical Support',
+                                      'System Optimization'
+                                  ],
+                              ],
+
+                          ];
+
+                          foreach ($serviceArr as $service) {
+                          ?>
+
+                              <div class="col-md-6 col-lg-4"
+                                  data-aos="fade-up"
+                                  data-aos-delay="0">
+
+                                  <div class="service-card">
+
+                                      <!-- Service Icon -->
+                                      <div class="service-icon">
+                                          <i class="bi <?= htmlspecialchars($service['icon']) ?>"></i>
+                                      </div>
+
+                                      <!-- Service Title -->
+                                      <h3 class="service-title">
+                                          <?= htmlspecialchars($service['service-title']) ?>
+                                      </h3>
+
+                                      <!-- Service Description -->
+                                      <p class="service-text">
+                                          <?= htmlspecialchars($service['service-text']) ?>
+                                      </p>
+
+                                      <!-- Service Link -->
+                                      <a href="service-single.php" class="service-link">
+                                          Learn More
+                                          <i class="fa-solid fa-arrow-right"></i>
+                                      </a>
+
+                                      <!-- Service Tags -->
+                                      <?php if (!empty($service['service-feature-tag'])) { ?>
+
+                                          <div class="service-features">
+
+                                              <?php foreach ($service['service-feature-tag'] as $tag) { ?>
+
+                                                  <span class="service-feature-tag">
+                                                      <?= htmlspecialchars($tag) ?>
+                                                  </span>
+
+                                              <?php } ?>
+
+                                          </div>
+
+                                      <?php } ?>
+
+                                  </div>
+
+                              </div>
+
+                          <?php
+                          }
+                      ?>
+
+         </div>
 
     </div>
   </section>
@@ -377,9 +393,8 @@
 
       <div class="text-center mb-5" data-aos="fade-up">
         <div class="section-tag mx-auto">Our Process</div>
-        <h2 class="section-title">How We Deliver <span class="text-gradient">Exceptional Results</span></h2>
-        <p class="section-subtitle mx-auto text-center">A proven 4-step process refined over 12 years and 400+ projects.
-        </p>
+        <h2 class="section-title">How We Turn <span class="text-gradient">Ideas Into Digital Success</span></h2>
+        <p class="section-subtitle mx-auto text-center">A structured, collaborative approach that takes your idea from initial concept to a reliable, scalable digital solution.</p>
       </div>
 
       <div class="row g-4">
@@ -387,35 +402,31 @@
           <div class="process-step">
             <div class="process-step-number">01</div>
             <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Discovery & Strategy</h2>
-            <p class="process-step-text">Deep-dive into your goals, users, and constraints. We map the full product
-              landscape before writing a single line of code.</p>
+            <h2 class="process-step-title h4">Discover & Plan</h2>
+            <p class="process-step-text">We understand your business goals, challenges, target users, and technical requirements. Together, we define the project scope, priorities, and roadmap for successful delivery.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
           <div class="process-step">
             <div class="process-step-number">02</div>
             <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Design & Prototype</h2>
-            <p class="process-step-text">Wireframes, interactive prototypes, and design systems. approve exactly what
-              will be built before development starts.</p>
+            <h2 class="process-step-title h4">Design & Strategize</h2>
+            <p class="process-step-text">We transform requirements into clear user journeys, wireframes, and intuitive designs. Every experience is planned with usability, functionality, and scalability in mind.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
           <div class="process-step">
             <div class="process-step-number">03</div>
             <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Build & Test</h2>
-            <p class="process-step-text">Agile sprints with weekly demos. Automated testing at every layer unit,
-              integration, and ensuring rock-solid quality.</p>
+            <h2 class="process-step-title h4">Develop & Test</h2>
+            <p class="process-step-text">Our team builds your solution using modern technologies and proven development practices. Rigorous testing ensures performance, security, reliability, and a seamless user experience.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
           <div class="process-step">
             <div class="process-step-number">04</div>
-            <h2 class="process-step-title h4">Launch & Scale</h2>
-            <p class="process-step-text">Zero-downtime deployment with full monitoring. Post-launch support and
-              continuous iteration to grow with your business.</p>
+            <h2 class="process-step-title h4">Launch & Grow</h2>
+            <p class="process-step-text">We deploy your solution smoothly and provide ongoing support, monitoring, and improvements. As your business evolves, we help your technology scale with it.</p>
           </div>
         </div>
       </div>
@@ -438,9 +449,9 @@
                 <path d="m9 12 2 2 4-4" />
               </svg></div>
             <div class="counter-value">
-              <span class="counter-number" data-count="400" data-suffix="+">400+</span>
+              <span class="counter-number" data-count="100" data-suffix="+">100+</span>
             </div>
-            <div class="counter-label">Projects Completed</div>
+            <div class="counter-label">Digital Solutions</div>
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
@@ -453,9 +464,9 @@
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg></div>
             <div class="counter-value">
-              <span class="counter-number" data-count="2000" data-suffix="+">2000+</span>
+              <span class="counter-number" data-count="50" data-suffix="+">50+</span>
             </div>
-            <div class="counter-label">Happy Clients</div>
+            <div class="counter-label">Businesses Supported</div>
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
@@ -469,9 +480,9 @@
                 <path d="M7 4H4v3a3 3 0 0 0 3 3" />
               </svg></div>
             <div class="counter-value">
-              <span class="counter-number" data-count="48" data-suffix="+">48+</span>
+              <span class="counter-number" data-count="10" data-suffix="+">10+</span>
             </div>
-            <div class="counter-label">Industry Awards</div>
+            <div class="counter-label">Technology Services</div>
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
@@ -483,7 +494,7 @@
                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
               </svg></div>
             <div class="counter-value">
-              <span class="counter-number" data-count="32" data-suffix="+">32+</span>
+              <span class="counter-number" data-count="12" data-suffix="+">12+</span>
             </div>
             <div class="counter-label">Countries Served</div>
           </div>
@@ -495,418 +506,764 @@
   <!-- ============================================================
        PORTFOLIO
        ============================================================ -->
+  <?php
+
+    $portfolioArr = [
+
+        [
+            'title' => 'Business Management Platform',
+            'category' => 'Web Solutions',
+            'category-label' => 'Web Application',
+            'filter' => 'cat-web',
+            'image' => 'assets/img/portfolio/port-1.jpg',
+            'alt' => 'Business Management Web Application',
+            'url' => 'portfolio-single.php',
+            'delay' => '0',
+        ],
+
+        [
+            'title' => 'Customer Mobile Application',
+            'category' => 'Mobile Apps',
+            'category-label' => 'Mobile Application',
+            'filter' => 'cat-mobile',
+            'image' => 'assets/img/portfolio/port-2.jpg',
+            'alt' => 'Customer Mobile Application',
+            'url' => 'portfolio-single.php',
+            'delay' => '100',
+        ],
+
+        [
+            'title' => 'AI-Powered Business Solution',
+            'category' => 'Business Software',
+            'category-label' => 'AI & Automation',
+            'filter' => 'cat-ai',
+            'image' => 'assets/img/portfolio/port-3.jpg',
+            'alt' => 'AI Powered Business Solution',
+            'url' => 'portfolio-single.php',
+            'delay' => '200',
+        ],
+
+        [
+            'title' => 'Enterprise UI/UX Design',
+            'category' => 'UI/UX',
+            'category-label' => 'UI/UX Design',
+            'filter' => 'cat-design',
+            'image' => 'assets/img/portfolio/port-4.jpg',
+            'alt' => 'Enterprise UI UX Design',
+            'url' => 'portfolio-single.php',
+            'delay' => '0',
+        ],
+
+        [
+            'title' => 'Business Automation Platform',
+            'category' => 'Business Software',
+            'category-label' => 'Business Automation',
+            'filter' => 'cat-web cat-ai',
+            'image' => 'assets/img/portfolio/port-5.jpg',
+            'alt' => 'Business Automation Platform',
+            'url' => 'portfolio-single.php',
+            'delay' => '100',
+        ],
+
+        [
+            'title' => 'Travel & Service Mobile App',
+            'category' => 'Mobile Apps',
+            'category-label' => 'Mobile Application',
+            'filter' => 'cat-mobile cat-design',
+            'image' => 'assets/img/portfolio/port-6.jpg',
+            'alt' => 'Travel and Service Mobile Application',
+            'url' => 'portfolio-single.php',
+            'delay' => '200',
+        ],
+
+    ];
+
+  ?>
+
   <section class="section-py" id="portfolio">
-    <div class="container">
-      <div class="text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Our Work</div>
-        <h2 class="section-title">Selected <span class="text-gradient">Case Studies</span></h2>
-        <p class="section-subtitle mx-auto">A curated selection of our most impactful projects across industries.</p>
+
+      <div class="container">
+
+          <!-- Section Heading -->
+          <div class="text-center mb-5" data-aos="fade-up">
+
+              <div class="section-tag">
+                  Our Work
+              </div>
+
+              <h2 class="section-title">
+                  Selected
+                  <span class="text-gradient">
+                      Solutions That Create Real Impact
+                  </span>
+              </h2>
+
+              <p class="section-subtitle mx-auto">
+                  Explore a selection of digital solutions we've designed and
+                  developed to help businesses improve operations, engage
+                  customers, and achieve their technology goals.
+              </p>
+
+          </div>
+
+
+          <!-- Portfolio Filters -->
+          <div class="portfolio-filters"
+              data-aos="fade-up"
+              data-aos-delay="100">
+
+              <button
+                  class="portfolio-filter-btn active"
+                  data-filter="*">
+                  All Projects
+              </button>
+
+              <button
+                  class="portfolio-filter-btn"
+                  data-filter=".cat-web">
+                  Web Solutions
+              </button>
+
+              <button
+                  class="portfolio-filter-btn"
+                  data-filter=".cat-mobile">
+                  Mobile Apps
+              </button>
+
+              <button
+                  class="portfolio-filter-btn"
+                  data-filter=".cat-ai">
+                  Business Software
+              </button>
+
+              <button
+                  class="portfolio-filter-btn"
+                  data-filter=".cat-design">
+                  UI/UX
+              </button>
+
+          </div>
+
+
+          <!-- Portfolio Grid -->
+          <div class="portfolio-grid row gx-4">
+
+              <?php foreach ($portfolioArr as $portfolio) { ?>
+
+                  <div
+                      class="col-md-6 col-lg-4 portfolio-item <?= htmlspecialchars($portfolio['filter']) ?>"
+                      data-aos="fade-up"
+                      data-aos-delay="<?= htmlspecialchars($portfolio['delay']) ?>"
+                  >
+
+                      <a
+                          href="<?= htmlspecialchars($portfolio['url']) ?>"
+                          class="portfolio-card d-block"
+                      >
+
+                          <!-- Portfolio Image -->
+                          <img
+                              src="<?= htmlspecialchars($portfolio['image']) ?>"
+                              alt="<?= htmlspecialchars($portfolio['alt']) ?>"
+                              class="portfolio-card-img"
+                              loading="lazy"
+                          >
+
+
+                          <!-- Overlay -->
+                          <div class="portfolio-card-overlay">
+
+                              <div class="portfolio-card-info">
+
+                                  <!-- Category -->
+                                  <div class="portfolio-card-cat">
+                                      <?= htmlspecialchars($portfolio['category-label']) ?>
+                                  </div>
+
+                                  <!-- Title -->
+                                  <div class="portfolio-card-title">
+                                      <?= htmlspecialchars($portfolio['title']) ?>
+                                  </div>
+
+                                  <!-- Action -->
+                                  <div class="portfolio-card-actions">
+
+                                      <span class="portfolio-card-btn">
+
+                                          View Case Study
+
+                                          <i class="fa-solid fa-arrow-right"></i>
+
+                                      </span>
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                      </a>
+
+                  </div>
+
+              <?php } ?>
+
+          </div>
+
+
+          <!-- View Full Portfolio -->
+          <div
+              class="text-center mt-5"
+              data-aos="fade-up"
+          >
+
+              <a
+                  href="portfolio.php"
+                  class="btn-outline-custom"
+              >
+                  View Full Portfolio
+
+                  <i class="fa-solid fa-arrow-right"></i>
+
+              </a>
+
+          </div>
+
       </div>
 
-      <!-- Filters -->
-      <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
-        <button class="portfolio-filter-btn active" data-filter="*">All Projects</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-web">Web Apps</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-mobile">Mobile</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-ai">AI / ML</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-design">Design</button>
-      </div>
-
-      <div class="portfolio-grid row gx-4">
-
-        <div class="col-md-6 col-lg-4 portfolio-item cat-web" data-aos="fade-up">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-1.jpg" alt="Finova Dashboard" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Web Application</div>
-                <div class="portfolio-card-title">Finova Financial Dashboard</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4 portfolio-item cat-mobile" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-2.jpg" alt="FitPulse App" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Mobile App</div>
-                <div class="portfolio-card-title">FitPulse Wellness Platform</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4 portfolio-item cat-ai" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-3.jpg" alt="Synapse AI" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">AI / Machine Learning</div>
-                <div class="portfolio-card-title">Synapse Predictive Analytics</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4 portfolio-item cat-design" data-aos="fade-up">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-4.jpg" alt="Orion Design System" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">UI/UX Design</div>
-                <div class="portfolio-card-title">Orion Enterprise Design System</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4 portfolio-item cat-web cat-ai" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-5.jpg" alt="TradeMind" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Web App AI</div>
-                <div class="portfolio-card-title">TradeMind Algorithmic Trading</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-6 col-lg-4 portfolio-item cat-mobile cat-design" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-6.jpg" alt="Nomad App" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Mobile Design</div>
-                <div class="portfolio-card-title">Nomad Travel Companion App</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="text-center mt-5" data-aos="fade-up">
-        <a href="portfolio.html" class="btn-outline-custom">View Full Portfolio <i
-            class="fa-solid fa-arrow-right"></i></a>
-      </div>
-
-    </div>
   </section>
 
   <!-- ============================================================
        TESTIMONIALS
        ============================================================ -->
-  <section class="section-py testimonials-section">
-    <div class="container">
+      <?php
 
-      <div class="text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Client Reviews</div>
-        <h2 class="section-title">What Our Clients <span class="text-gradient">Say About Us</span></h2>
-      </div>
+            $testimonialArr = [
 
-      <div class="swiper testimonials-swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
+                [
+                    'name' => 'Rahul Mehta',
+                    'role' => 'Business Owner',
+                    'company' => 'Technology Solutions',
+                    'avatar' => 'assets/img/avatars/user-1.jpg',
+                    'rating' => 5,
+                    'review' => 'INNOTELL TECH understood our requirements perfectly and delivered a reliable solution that significantly improved our day-to-day business operations. The team was professional, responsive, and easy to work with.',
+                ],
 
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <span class="testimonial-quote">"</span>
-              <div class="testimonial-rating">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">NexVera delivered our entire platform in 4 months on time, on budget, and far
-                exceeding our expectations. Their engineering quality is unmatched.</p>
-              <div class="testimonial-author">
-                <img src="assets/img/avatars/user-1.jpg" alt="Alex Morgan" class="testimonial-avatar"
-                  loading="lazy" />
-                <div>
-                  <div class="testimonial-name">Alex Morgan</div>
-                  <div class="testimonial-role">CTO, Finova Corp</div>
-                </div>
-              </div>
-            </div>
-          </div>
+                [
+                    'name' => 'Priya Patel',
+                    'role' => 'Founder',
+                    'company' => 'Digital Business',
+                    'avatar' => 'assets/img/avatars/user-2.jpg',
+                    'rating' => 5,
+                    'review' => 'Working with INNOTELL TECH was a great experience. They transformed our ideas into a modern digital solution with a smooth user experience. Their attention to detail and commitment to quality really stood out.',
+                ],
 
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <span class="testimonial-quote">"</span>
-              <div class="testimonial-rating">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">The AI pipeline they built for us processes 2M events per day with 99.97%
-                accuracy. The ROI was visible within the first quarter after launch.</p>
-              <div class="testimonial-author">
-                <img src="assets/img/avatars/user-2.jpg" alt="Priya Sharma"
-                  class="testimonial-avatar" loading="lazy" />
-                <div>
-                  <div class="testimonial-name">Priya Sharma</div>
-                  <div class="testimonial-role">Head of Data, NovaSys</div>
-                </div>
-              </div>
-            </div>
-          </div>
+                [
+                    'name' => 'Amit Shah',
+                    'role' => 'Director',
+                    'company' => 'Business Solutions',
+                    'avatar' => 'assets/img/avatars/user-3.jpg',
+                    'rating' => 5,
+                    'review' => 'The INNOTELL TECH team provided excellent technical guidance throughout the project. Their approach was structured, transparent, and focused on delivering a solution that aligned with our business goals.',
+                ],
 
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <span class="testimonial-quote">"</span>
-              <div class="testimonial-rating">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                  class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
-              </div>
-              <p class="testimonial-text">From discovery to launch, the NexVera team was a true partner. The
-                communication, design thinking, and code quality are at a completely different level.</p>
-              <div class="testimonial-author">
-                <img src="assets/img/avatars/user-3.jpg" alt="Carlos Mendez" class="testimonial-avatar"
-                  loading="lazy" />
-                <div>
-                  <div class="testimonial-name">Carlos Mendez</div>
-                  <div class="testimonial-role">CEO, Axiom Ventures</div>
-                </div>
-              </div>
-            </div>
-          </div>
+                [
+                    'name' => 'Neha Joshi',
+                    'role' => 'Operations Manager',
+                    'company' => 'Growing Enterprise',
+                    'avatar' => 'assets/img/avatars/user-4.jpg',
+                    'rating' => 5,
+                    'review' => 'INNOTELL TECH helped us simplify our processes through a customized technology solution. The final product is easy to use, reliable, and has made our workflow much more efficient.',
+                ],
 
-          <div class="swiper-slide">
-            <div class="testimonial-card">
-              <span class="testimonial-quote">"</span>
-              <div class="testimonial-rating">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">Our mobile app went from concept to the App Store in 90 days. 50,000 downloads
-                in the first month. NexVera made the impossible happen.</p>
-              <div class="testimonial-author">
-                <img src="assets/img/avatars/user-4.jpg" alt="Sarah Chen" class="testimonial-avatar"
-                  loading="lazy" />
-                <div>
-                  <div class="testimonial-name">Sarah Chen</div>
-                  <div class="testimonial-role">Founder, FitPulse</div>
-                </div>
-              </div>
-            </div>
-          </div>
+                [
+                    'name' => 'Vikram Desai',
+                    'role' => 'Managing Director',
+                    'company' => 'Business Group',
+                    'avatar' => 'assets/img/avatars/user-5.jpg',
+                    'rating' => 5,
+                    'review' => 'From planning to implementation, the team maintained excellent communication and delivered a solution tailored to our requirements. We appreciate their professionalism and ongoing support.',
+                ],
 
-        </div>
-        <div class="swiper-pagination swiper-pagination-custom mt-4"></div>
-      </div>
+                [
+                    'name' => 'Anjali Mehta',
+                    'role' => 'Founder',
+                    'company' => 'Digital Ventures',
+                    'avatar' => 'assets/img/avatars/user-6.jpg',
+                    'rating' => 4,
+                    'review' => 'We were impressed with the quality of work and the team’s ability to understand our business needs. INNOTELL TECH delivered a clean, professional, and scalable digital solution.',
+                ],
 
-    </div>
-  </section>
+            ];
+
+      ?>
+
+      <section class="section-py testimonials-section"> 
+          <div class="container">
+
+              <!-- Section Heading -->
+              <div class="text-center mb-5" data-aos="fade-up">
+
+                  <div class="section-tag">
+                      Client Reviews
+                  </div>
+
+                  <h2 class="section-title">
+                      What Our Clients
+                      <span class="text-gradient">
+                          Say About Us
+                      </span>
+                  </h2>
+
+              </div>
+
+
+              <!-- Testimonials Slider -->
+              <div
+                  class="swiper testimonials-swiper"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+              >
+
+                  <div class="swiper-wrapper">
+
+                      <?php foreach ($testimonialArr as $testimonial) { ?>
+
+                          <div class="swiper-slide">
+
+                              <div class="testimonial-card">
+
+                                  <!-- Quote -->
+                                  <span class="testimonial-quote">
+                                      "
+                                  </span>
+
+
+                                  <!-- Rating -->
+                                  <div class="testimonial-rating">
+
+                                      <?php
+
+                                      $rating = (int) $testimonial['rating'];
+
+                                      for ($i = 1; $i <= 5; $i++) {
+
+                                          if ($i <= $rating) {
+
+                                              echo '<i class="fa-solid fa-star"></i>';
+
+                                          } else {
+
+                                              echo '<i class="fa-regular fa-star"></i>';
+
+                                          }
+
+                                      }
+
+                                      ?>
+
+                                  </div>
+
+
+                                  <!-- Review -->
+                                  <p class="testimonial-text">
+
+                                      <?= htmlspecialchars($testimonial['review']) ?>
+
+                                  </p>
+
+
+                                  <!-- Author -->
+                                  <div class="testimonial-author">
+
+                                      <img
+                                          src="<?= htmlspecialchars($testimonial['avatar']) ?>"
+                                          alt="<?= htmlspecialchars($testimonial['name']) ?>"
+                                          class="testimonial-avatar"
+                                          loading="lazy"
+                                      />
+
+                                      <div>
+
+                                          <div class="testimonial-name">
+
+                                              <?= htmlspecialchars($testimonial['name']) ?>
+
+                                          </div>
+
+                                          <div class="testimonial-role">
+
+                                              <?= htmlspecialchars($testimonial['role']) ?>
+
+                                              <?php if (!empty($testimonial['company'])) { ?>
+
+                                                  , <?= htmlspecialchars($testimonial['company']) ?>
+
+                                              <?php } ?>
+
+                                          </div>
+
+                                      </div>
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                      <?php } ?>
+
+                  </div>
+
+
+                  <!-- Pagination -->
+                  <div class="swiper-pagination swiper-pagination-custom mt-4"></div>
+
+              </div>
+
+          </div> 
+      </section>
+      
 
   <!-- ============================================================
        TEAM PREVIEW
        ============================================================ -->
-  <section class="section-py" id="team">
-    <div class="container">
+    <section class="section-py d-none" id="team">
+      <div class="container">
 
-      <div class="row justify-content-between align-items-end mb-5">
-        <div class="col-lg-6" data-aos="fade-right">
-          <div class="section-tag">Meet The Team</div>
-          <h2 class="section-title">The Brilliant Minds <span class="text-gradient">Behind NexVera</span></h2>
+        <div class="row justify-content-between align-items-end mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="section-tag">Meet The Team</div>
+            <h2 class="section-title">The Brilliant Minds <span class="text-gradient">Behind NexVera</span></h2>
+          </div>
+          <div class="col-lg-4 text-lg-end" data-aos="fade-left">
+            <a href="team.html" class="btn-outline-custom">View Full Team <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
         </div>
-        <div class="col-lg-4 text-lg-end" data-aos="fade-left">
-          <a href="team.html" class="btn-outline-custom">View Full Team <i class="fa-solid fa-arrow-right"></i></a>
+
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+            <div class="team-card">
+              <div class="team-img-wrap">
+                <img src="assets/img/teams/team-8.jpg" alt="Marcus Webb" class="team-img"
+                  loading="lazy" />
+                <div class="team-social-overlay">
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <a href="#" class="team-name text-decoration-none">Marcus Webb</a>
+                <div class="team-role">CEO & Co-Founder</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-card">
+              <div class="team-img-wrap">
+                <img src="assets/img/teams/team-3.jpg" alt="Elena Vasquez" class="team-img"
+                  loading="lazy" />
+                <div class="team-social-overlay">
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <a href="#" class="team-name text-decoration-none">Elena Vasquez</a>
+                <div class="team-role">CTO & Lead Architect</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-card">
+              <div class="team-img-wrap">
+                <img src="assets/img/teams/team-4.jpg" alt="James Okafor" class="team-img"
+                  loading="lazy" />
+                <div class="team-social-overlay">
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <a href="#" class="team-name text-decoration-none">James Okafor</a>
+                <div class="team-role">Head of Engineering</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-card">
+              <div class="team-img-wrap">
+                <img src="assets/img/teams/team-5.jpg" alt="Aisha Tanaka" class="team-img"
+                  loading="lazy" />
+                <div class="team-social-overlay">
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <a href="#" class="team-name text-decoration-none">Aisha Tanaka</a>
+                <div class="team-role">Creative Director</div>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
-
-      <div class="row g-4">
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-8.jpg" alt="Marcus Webb" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">Marcus Webb</a>
-              <div class="team-role">CEO & Co-Founder</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-3.jpg" alt="Elena Vasquez" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">Elena Vasquez</a>
-              <div class="team-role">CTO & Lead Architect</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-4.jpg" alt="James Okafor" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">James Okafor</a>
-              <div class="team-role">Head of Engineering</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-5.jpg" alt="Aisha Tanaka" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">Aisha Tanaka</a>
-              <div class="team-role">Creative Director</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
+    </section>
  
 
-  <!-- ============================================================
+    <!-- ============================================================
        BLOG
        ============================================================ -->
-  <section class="section-py" id="blog">
-    <div class="container">
+    <?php
 
-      <div class="row justify-content-between align-items-end mb-5">
-        <div class="col-lg-6" data-aos="fade-right">
-          <div class="section-tag">Insights & News</div>
-          <h2 class="section-title">From Our <span class="text-gradient">Tech Blog</span></h2>
-        </div>
-        <div class="col-lg-4 text-lg-end" data-aos="fade-left">
-          <a href="blog.html" class="btn-outline-custom">View All Articles <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
+      $blogArr = [
+
+          [
+              'title' => 'How AI Is Transforming Modern Business Operations',
+              'category' => 'Artificial Intelligence',
+              'image' => 'assets/img/blog/blog-1.jpg',
+              'alt' => 'Artificial Intelligence and Business Automation',
+              'excerpt' => 'Discover how AI-powered technologies and intelligent automation are helping businesses improve productivity, streamline operations, and make smarter decisions.',
+              'author' => 'INNOTELL TECH',
+              'author-image' => 'assets/img/avatars/user-1.jpg',
+              'date' => 'Aug 20, 2026',
+              'url' => 'blog-single.php?slug=ai-transforming-business',
+              'delay' => '0',
+          ],
+
+          [
+              'title' => 'Why Custom Software Can Give Your Business a Competitive Edge',
+              'category' => 'Software Development',
+              'image' => 'assets/img/blog/blog-2.jpg',
+              'alt' => 'Custom Software Development',
+              'excerpt' => 'Learn how tailored software solutions can improve business processes, increase efficiency, and provide the flexibility needed for long-term growth.',
+              'author' => 'INNOTELL TECH',
+              'author-image' => 'assets/img/avatars/user-2.jpg',
+              'date' => 'Aug 12, 2026',
+              'url' => 'blog-single.php?slug=custom-software-business-growth',
+              'delay' => '100',
+          ],
+
+          [
+              'title' => 'Building Better Digital Experiences With UI/UX Design',
+              'category' => 'UI/UX Design',
+              'image' => 'assets/img/blog/blog-3.jpg',
+              'alt' => 'UI UX Digital Product Design',
+              'excerpt' => 'Explore the principles behind effective UI/UX design and how user-focused digital experiences can improve engagement, usability, and customer satisfaction.',
+              'author' => 'INNOTELL TECH',
+              'author-image' => 'assets/img/avatars/user-3.jpg',
+              'date' => 'Aug 05, 2026',
+              'url' => 'blog-single.php?slug=better-digital-experiences',
+              'delay' => '200',
+          ],
+
+          [
+              'title' => 'Business Automation: Reduce Manual Work and Improve Efficiency',
+              'category' => 'Business Automation',
+              'image' => 'assets/img/blog/blog-4.jpg',
+              'alt' => 'Business Process Automation',
+              'excerpt' => 'Understand how workflow automation can reduce repetitive tasks, minimize errors, and help teams focus on higher-value business activities.',
+              'author' => 'INNOTELL TECH',
+              'author-image' => 'assets/img/avatars/user-4.jpg',
+              'date' => 'Jul 28, 2026',
+              'url' => 'blog-single.php?slug=business-automation-efficiency',
+              'delay' => '0',
+          ],
+
+          [
+              'title' => 'Choosing the Right Technology for a Scalable Web Application',
+              'category' => 'Web Development',
+              'image' => 'assets/img/blog/blog-5.jpg',
+              'alt' => 'Scalable Web Application Development',
+              'excerpt' => 'A practical guide to selecting the right architecture, technologies, and development approach for building scalable and reliable web applications.',
+              'author' => 'INNOTELL TECH',
+              'author-image' => 'assets/img/avatars/user-5.jpg',
+              'date' => 'Jul 20, 2026',
+              'url' => 'blog-single.php?slug=scalable-web-application',
+              'delay' => '100',
+          ],
+
+          [
+              'title' => 'Digital Transformation Strategies for Growing Businesses',
+              'category' => 'Digital Transformation',
+              'image' => 'assets/img/blog/blog-6.jpg',
+              'alt' => 'Digital Transformation Strategy',
+              'excerpt' => 'Learn how businesses can use modern technology, connected systems, and smarter processes to adapt, compete, and create new opportunities.',
+              'author' => 'INNOTELL TECH',
+              'author-image' => 'assets/img/avatars/user-6.jpg',
+              'date' => 'Jul 14, 2026',
+              'url' => 'blog-single.php?slug=digital-transformation-strategies',
+              'delay' => '200',
+          ],
+
+      ];
+
+    ?>
+
+    <section class="section-py" id="blog">
+
+      <div class="container">
+
+          <!-- Section Heading -->
+          <div class="row justify-content-between align-items-end mb-5">
+
+              <div class="col-lg-6" data-aos="fade-right">
+
+                  <div class="section-tag">
+                      Insights & News
+                  </div>
+
+                  <h2 class="section-title">
+                      From Our
+                      <span class="text-gradient">
+                          Tech Blog
+                      </span>
+                  </h2>
+
+              </div>
+
+
+              <div class="col-lg-4 text-lg-end" data-aos="fade-left">
+
+                  <a href="blog.php" class="btn-outline-custom">
+
+                      View All Articles
+
+                      <i class="fa-solid fa-arrow-right"></i>
+
+                  </a>
+
+              </div>
+
+          </div>
+
+
+          <!-- Blog Grid -->
+          <div class="row g-4">
+
+              <?php
+
+              // Show only latest 3 posts on homepage
+              $latestBlogs = array_slice($blogArr, 0, 3);
+
+              foreach ($latestBlogs as $blog) {
+
+              ?>
+
+                  <div
+                      class="col-md-6 col-lg-4"
+                      data-aos="fade-up"
+                      data-aos-delay="<?= htmlspecialchars($blog['delay']) ?>"
+                  >
+
+                      <div class="blog-card">
+
+                          <!-- Blog Image -->
+                          <div class="blog-card-img-wrap">
+
+                              <img
+                                  src="<?= htmlspecialchars($blog['image']) ?>"
+                                  alt="<?= htmlspecialchars($blog['alt']) ?>"
+                                  class="blog-card-img"
+                                  loading="lazy"
+                              />
+
+                          </div>
+
+
+                          <!-- Blog Content -->
+                          <div class="blog-card-body">
+
+                              <!-- Category -->
+                              <div class="blog-post-category">
+
+                                  <?= htmlspecialchars($blog['category']) ?>
+
+                              </div>
+
+
+                              <!-- Blog Title -->
+                              <a href="<?= htmlspecialchars($blog['url']) ?>">
+
+                                  <h2 class="blog-card-title h4">
+
+                                      <?= htmlspecialchars($blog['title']) ?>
+
+                                  </h2>
+
+                              </a>
+
+
+                              <!-- Excerpt -->
+                              <p class="blog-card-excerpt">
+
+                                  <?= htmlspecialchars($blog['excerpt']) ?>
+
+                              </p>
+
+
+                              <!-- Blog Meta -->
+                              <div class="blog-card-meta">
+
+                                  <!-- Author -->
+                                  <div class="blog-meta-author">
+
+                                      <img
+                                          src="<?= htmlspecialchars($blog['author-image']) ?>"
+                                          alt="<?= htmlspecialchars($blog['author']) ?>"
+                                          class="blog-meta-avatar"
+                                          loading="lazy"
+                                      />
+
+                                      <a href="#">
+
+                                          <span class="blog-meta-name">
+
+                                              <?= htmlspecialchars($blog['author']) ?>
+
+                                          </span>
+
+                                      </a>
+
+                                  </div>
+
+
+                                  <!-- Date -->
+                                  <span class="blog-meta-read">
+
+                                      <i class="fa-regular fa-calendar"></i>
+
+                                      <?= htmlspecialchars($blog['date']) ?>
+
+                                  </span>
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              <?php
+
+              }
+
+              ?>
+
+          </div>
+
       </div>
 
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
-          <div class="blog-card">
-            <div class="blog-card-img-wrap">
-              <img src="assets/img/blog/blog-1.jpg" alt="AI Trends 2025" class="blog-card-img"
-                loading="lazy" />
-            </div>
-            <div class="blog-card-body">
-              <div class="blog-post-category"> Artificial Intelligence</div>
-              <a href="blog-single.html">
-                <h2 class="blog-card-title h4">10 AI Trends Reshaping the Tech Industry in 2025</h2>
-              </a>
-              <p class="blog-card-excerpt">From multimodal models to agentic frameworks, these are the developments
-                every technology leader needs to understand this year.</p>
-              <div class="blog-card-meta">
-                <div class="blog-meta-author">
-                  <img src="assets/img/avatars/user-1.jpg" alt="Tom Harris" class="blog-meta-avatar"
-                    loading="lazy" />
-                  <a href="#"><span class="blog-meta-name">Tom Harris</span></a>
-                </div>
-                <span class="blog-meta-read"><i class="fa-regular fa-calendar"></i> Dec 14, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="blog-card">
-            <div class="blog-card-img-wrap">
-              <img src="assets/img/blog/blog-2.jpg" alt="Cloud Architecture" class="blog-card-img"
-                loading="lazy" />
-            </div>
-            <div class="blog-card-body">
-              <div class="blog-post-category"> Cloud & DevOps</div>
-              <a href="blog-single.html">
-                <h2 class="blog-card-title h4">Kubernetes vs Docker Swarm: Which Should You Choose in 2025?</h2>
-              </a>
-              <p class="blog-card-excerpt">A practical comparison of container orchestration platforms with real
-                benchmark data and migration guides for engineering teams.</p>
-              <div class="blog-card-meta">
-                <div class="blog-meta-author">
-                  <img src="assets/img/avatars/user-2.jpg" alt="Rachel Kim" class="blog-meta-avatar"
-                    loading="lazy" />
-                  <a href="#"><span class="blog-meta-name">Rachel Kim</span></a>
-                </div>
-                <span class="blog-meta-read"><i class="fa-regular fa-calendar"></i> Dec 8, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="blog-card">
-            <div class="blog-card-img-wrap">
-              <img src="assets/img/blog/blog-3.jpg" alt="UX Design" class="blog-card-img" loading="lazy" />
-            </div>
-            <div class="blog-card-body">
-              <div class="blog-post-category"> Design</div>
-              <a href="blog-single.html">
-                <h2 class="blog-card-title h4">The Psychology of Color in SaaS Product Design</h2>
-              </a>
-              <p class="blog-card-excerpt">How the world's most successful SaaS companies use color theory to guide
-                users, reduce churn, and build trust backed by data.</p>
-              <div class="blog-card-meta">
-                <div class="blog-meta-author">
-                  <img src="assets/img/avatars/user-3.jpg" alt="Sophie Laurent"
-                    class="blog-meta-avatar" loading="lazy" />
-                  <a href="#"><span class="blog-meta-name">Sophie Laurent</span></a>
-                </div>
-                <span class="blog-meta-read"><i class="fa-regular fa-calendar"></i> Nov 30, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
+    </section>
 
   <!-- ============================================================
        CTA
@@ -916,12 +1273,11 @@
     <div class="cta-blob cta-blob-2"></div>
     <div class="container">
       <div class="cta-content" data-aos="fade-up">
-        <div class="section-tag accent mx-auto mb-4 section-tag--inline-flex">Ready to Build Something Great?</div>
-        <h2 class="cta-title">Let's Transform Your <br class="d-none d-md-block" />Business Together</h2>
-        <p class="cta-text">Whether you're a startup with a big idea or an enterprise ready to modernize NexVera has the
-          team and technology to make it happen.</p>
+        <div class="section-tag accent mx-auto mb-4 section-tag--inline-flex">READY TO BUILD SOMETHING GREAT?</div>
+        <h2 class="cta-title">Let's Transform Your<br class="d-none d-md-block" />Business With Technology</h2>
+        <p class="cta-text">Whether you're launching a new idea, improving existing operations, or planning your next digital transformation, INNOTELL TECH delivers the technology, expertise, and support to turn your vision into measurable business growth.</p>
         <div class="cta-actions">
-          <a href="contact.html" class="btn-white-custom btn-lg-custom">Schedule a Free Consultation <i
+          <a href="contact.html" class="btn-white-custom btn-lg-custom">Start Your Project <i
               class="fa-solid fa-arrow-right"></i></a>
           <a href="portfolio.html" class="btn-ghost-white btn-lg-custom">View Our Work</a>
         </div>

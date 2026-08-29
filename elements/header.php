@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="NexVera - Premium Technology Solutions. We build innovative digital experiences that transform businesses." />
-  <title>NexVera – Technology & IT Solutions HTML Template</title>
+ 
+    <?php include 'includes/seo-meta.php'; ?>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
@@ -15,6 +16,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/vendor/all.min.css" />

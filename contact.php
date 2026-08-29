@@ -12,8 +12,7 @@
       <div class="page-hero-content" data-aos="fade-up">
         <div class="page-hero-tag">Let&rsquo;s Talk</div>
         <h1 class="page-hero-title">Every Great Project<br />Starts With a Conversation</h1>
-        <p class="page-hero-text">Tell us about your project. We&rsquo;ll respond within 24 hours with a clear path
-          forward &mdash; no sales pitch, no obligations.</p>
+        <p class="page-hero-text">Tell us about your project, business goals, or technology requirements. Our team will review your needs and get back to you with the right solution and a clear path forward.</p>
         <nav class="breadcrumb-custom">
           <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
@@ -195,11 +194,12 @@
           <div class="contact-social-wrap">
             <h2 class="mb-3 h5">Find Us Online</h2>
             <div class="d-flex flex-column gap-2">
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>
-                linkedin.com/company/nexvera</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> @nexvera_io</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-github"></i> github.com/nexvera</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-dribbble"></i> dribbble.com/nexvera</a>
+              <a href="javascript:void();" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+              <a href="javascript:void();" class="contact-social-link"><i class="fa-brands fa-facebook"></i>Facebook</a>
+              <a href="javascript:void();" class="contact-social-link"><i class="fa-brands fa-instagram"></i>Insatgram</a>
+              <a href="javascript:void();" class="contact-social-link"><i class="fa-brands fa-twitter"></i>Twitter</a>
+              <a href="javascript:void();" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+              <a href="javascript:void();" class="contact-social-link"><i class="fa-brands fa-github"></i> Github</a>
             </div>
           </div>
 

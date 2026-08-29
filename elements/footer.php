@@ -8,14 +8,13 @@
         <!-- Brand -->
         <div class="col-lg-4">
           <a href="index.php" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-footer.png" alt="NexVera" class="footer-logo-img" width="260" height="auto"></a>
-          <p class="footer-desc">Building the digital infrastructure of tomorrow from AI-powered platforms to enterprise
-            web applications.</p>
+          <p class="footer-desc">Building reliable, scalable, and innovative digital solutions that help businesses streamline operations, strengthen their digital presence, and accelerate sustainable growth.</p>
           <div class="footer-social">
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-dribbble"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-youtube"></i></a>
+            <a href="javascript:void();" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="javascript:void();" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="javascript:void();" class="footer-social-link"><i class="fa-brands fa-github"></i></a>
+            <a href="javascript:void();" class="footer-social-link"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="javascript:void();" class="footer-social-link"><i class="fa-brands fa-youtube"></i></a>
           </div>
         </div>
 
@@ -25,7 +24,7 @@
           <ul class="footer-links">
             <li><a href="about.php" class="footer-link">About Us</a></li>
             <li><a href="team.php" class="footer-link">Our Team</a></li>
-            <li><a href="portfolio.php" class="footer-link">Portfolio</a></li>
+            <li><a href="portfolio.php" class="footer-link">Projects</a></li>
             <li><a href="blog.php" class="footer-link">Blog</a></li>
             <li><a href="contact.php" class="footer-link">Careers</a></li>
           </ul>
@@ -35,25 +34,24 @@
           <div class="footer-heading">Services</div>
           <ul class="footer-links">
             <li><a href="service-single.php" class="footer-link">Web Development</a></li>
-            <li><a href="service-single.php" class="footer-link">Mobile Apps</a></li>
-            <li><a href="service-single.php" class="footer-link">AI & ML</a></li>
-            <li><a href="service-single.php" class="footer-link">Cloud & DevOps</a></li>
+            <li><a href="service-single.php" class="footer-link">Mobile App Development</a></li>
+            <li><a href="service-single.php" class="footer-link">AI & Automation</a></li>
+            <li><a href="service-single.php" class="footer-link">CRM & Business Solutions</a></li>
             <li><a href="service-single.php" class="footer-link">UI/UX Design</a></li>
+            <li><a href="service-single.php" class="footer-link">Cloud & DevOps</a></li>
           </ul>
         </div>
 
         <!-- Newsletter -->
         <div class="col-lg-4">
-          <div class="footer-heading">Newsletter</div>
-          <p class="footer-newsletter-label">Get weekly insights on technology, design, and building great products. No
-            spam, ever.</p>
+          <div class="footer-heading">Stay Ahead With Technology</div>
+          <p class="footer-newsletter-label">Get the latest insights on technology, AI, software development, digital transformation, and business innovation delivered to your inbox.</p>
           <form class="footer-newsletter-form newsletter-form-el">
-            <input type="email" id="footer-newsletter-email" class="footer-newsletter-input" placeholder="your@email.com" aria-label="Email address" required />
+            <input type="email" id="footer-newsletter-email" class="footer-newsletter-input" placeholder="Enter your email address" aria-label="Email address" required />
             <button type="submit" class="footer-newsletter-btn">Subscribe</button>
           </form>
           <div class="mt-3 d-flex gap-3">
-            <span class="footer-newsletter-meta"><i class="fa-solid fa-shield-halved me-1"></i>No spam, ever</span>
-            <span class="footer-newsletter-meta"><i class="fa-solid fa-users me-1"></i>12K+ subscribers</span>
+            <span class="footer-newsletter-meta"><i class="fa-solid fa-shield-halved me-1"></i>No spam, ever. Unsubscribe anytime.</span>
           </div>
         </div>
 
@@ -63,11 +61,12 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
-          <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text" href="#">NexVera.</a> All Right
-            Reserves.</p>
+          <p class="footer-bottom-text mb-0">© 2026<a class="copyright-text" href="javascript:void();"> INNOTELL TECH. </a>All Rights Reserved.</p>
           <div class="footer-bottom-links">
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
-            <a href="#" class="footer-bottom-link">Terms of Service</a>
+            <a href="javascript:void();" class="footer-bottom-link">Privacy Policy</a>
+            <a href="javascript:void();" class="footer-bottom-link">Terms of Service</a>
+            <a href="javascript:void();" class="footer-bottom-link">Cookie Policy</a>
+
           </div>
         </div>
       </div>
@@ -80,7 +79,7 @@
     <button class="info-panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
     <div class="info-panel-logo">
         <a href="index.php" class="navbar-brand text-decoration-none">
-          <img src="assets/img/logo.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
+          <img src="assets/img/logo.png" alt="NexVera" class="navbar-logo-img" width="154" height="42">
         </a>
     </div>
     <div class="info-panel-divider"></div>
@@ -144,7 +143,7 @@
       <div class="info-panel-gallery">
         <div class="info-panel-gallery-item"><img src="assets/img/intro/intro-1.jpg" alt="" loading="lazy" />
         </div>
-        <div class="info-panel-gallery-item"><img src="assets/img/intro/intro-2.jpg" alt="" loading="lazy" />
+        <div class="info-panel-gallery-item"><img src="assets/img/intro/intro-3.jpg" alt="" loading="lazy" />
         </div>
         <div class="info-panel-gallery-item"><img src="assets/img/intro/intro-3.jpg" alt="" loading="lazy" />
         </div>
@@ -160,16 +159,164 @@
     <div>
       <div class="info-panel-section-title">Follow Us</div>
       <div class="info-panel-social">
-        <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="Javascript:void();" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="Javascript:void();" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="Javascript:void();" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="Javascript:void();" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="Javascript:void();" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
       </div>
     </div>
   </div>
 
   <!-- Scripts -->
+   <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const categories = document.querySelectorAll('.faq-category-content');
+            const sidebarLinks = document.querySelectorAll('.faq-cat-link');
+            const pageButtons = document.querySelectorAll('.faq-page-btn');
+
+            const prevButton = document.querySelector('.faq-prev');
+            const nextButton = document.querySelector('.faq-next');
+
+            let currentIndex = 0;
+
+            function showCategory(index) {
+
+                if (index < 0) {
+                    index = 0;
+                }
+
+                if (index >= categories.length) {
+                    index = categories.length - 1;
+                }
+
+                currentIndex = index;
+
+
+                /* Hide All Categories */
+
+                categories.forEach(function (category) {
+
+                    category.classList.add('d-none');
+
+                });
+
+
+                /* Show Selected Category */
+
+                categories[index].classList.remove('d-none');
+
+
+                /* Update Sidebar Active */
+
+                sidebarLinks.forEach(function (link) {
+
+                    link.classList.remove('active');
+
+                });
+
+
+                const categoryId = categories[index].dataset.category;
+
+                const activeSidebar = document.querySelector(
+                    '.faq-cat-link[data-category="' + categoryId + '"]'
+                );
+
+                if (activeSidebar) {
+
+                    activeSidebar.classList.add('active');
+
+                }
+
+
+                /* Update Pagination */
+
+                pageButtons.forEach(function (button) {
+
+                    button.closest('.page-item').classList.remove('active');
+
+                });
+
+
+                const activePage = document.querySelector(
+                    '.faq-page-btn[data-index="' + index + '"]'
+                );
+
+                if (activePage) {
+
+                    activePage.closest('.page-item').classList.add('active');
+
+                }
+
+
+                /* Scroll Smoothly */
+
+                document.querySelector('#faq-section').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+
+            }
+
+
+            /* Sidebar Click */
+
+            sidebarLinks.forEach(function (link) {
+
+                link.addEventListener('click', function () {
+
+                    const categoryId = this.dataset.category;
+
+                    categories.forEach(function (category, index) {
+
+                        if (category.dataset.category === categoryId) {
+
+                            showCategory(index);
+
+                        }
+
+                    });
+
+                });
+
+            });
+
+
+            /* Pagination Click */
+
+            pageButtons.forEach(function (button) {
+
+                button.addEventListener('click', function () {
+
+                    showCategory(
+                        parseInt(this.dataset.index)
+                    );
+
+                });
+
+            });
+
+
+            /* Previous */
+
+            prevButton.addEventListener('click', function () {
+
+                showCategory(currentIndex - 1);
+
+            });
+
+
+            /* Next */
+
+            nextButton.addEventListener('click', function () {
+
+                showCategory(currentIndex + 1);
+
+            });
+
+        });
+  </script>
    
   <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
   <script src="assets/js/vendor/aos.js"></script>

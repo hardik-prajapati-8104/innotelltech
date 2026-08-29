@@ -25,7 +25,7 @@
                     <a href="about.php" class="nav-dropdown-link">About</a>
                     <a href="services.php" class="nav-dropdown-link">Services</a>
                     <a href="service-single.php" class="nav-dropdown-link">Service Detail</a>
-                    <a href="team.php" class="nav-dropdown-link">Team</a>
+                    <a href="team.php" class="nav-dropdown-link d-none">Team</a>
                     <a href="faqs.php" class="nav-dropdown-link">FAQs</a>
                 </div>
                 </div>
@@ -33,15 +33,15 @@
             </nav>
 
             <div class="nav-actions">
-            <a href="contact.php" class="nav-outline d-none d-xl-inline-flex">Get in Touch</a>
-            <a href="contact.php" class="nav-cta">Start Project</a>
-            <button class="info-panel-btn d-none d-xl-inline-flex" aria-label="Open info panel"><span
-                class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
-                class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
-                class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span></button>
-            <button class="navbar-toggler-custom d-xl-none" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
+                <a href="contact.php" class="nav-outline d-none d-xl-inline-flex">Get in Touch</a>
+                <a href="contact.php" class="nav-cta d-none">Start Project</a>
+                <button class="info-panel-btn d-none d-xl-inline-flex" aria-label="Open info panel"><span
+                    class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
+                    class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
+                    class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span></button>
+                <button class="navbar-toggler-custom d-xl-none" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
             </div>
 
         </div>
