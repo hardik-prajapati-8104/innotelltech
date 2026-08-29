@@ -1,5 +1,6 @@
    <?php
         include_once ('elements/header.php');
+        include_once('includes/services-data.php');
     ?> 
   <!-- Page Hero -->
   <section class="page-hero">
@@ -197,9 +198,9 @@
     $currentPage = max(1, min($currentPage, $totalPages));
 
     $offset = ($currentPage - 1) * $servicesPerPage;
-
+    $servicesList = array_values($services);
     $currentServices = array_slice(
-        $services,
+        $servicesList,
         $offset,
         $servicesPerPage
     );
@@ -269,7 +270,11 @@
                           <!-- Service Link -->
                           <a href="service-single.php?service=<?= urlencode($service['slug']) ?>" class="svc-card-link">
                               Explore Service
-                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round">
                                   <path d="M5 12h14M12 5l7 7-7 7"/>
                               </svg>
                           </a>
@@ -464,52 +469,52 @@
     </div>
   </section>
 
-  <!-- Process Section -->
-     <section class="section-py">
-    <div class="container">
+    <!-- Process Section -->
+      <section class="section-py">
+          <div class="container">
 
-      <div class="text-center mb-5" data-aos="fade-up">
-        <div class="section-tag mx-auto">How We Work</div>
-        <h2 class="section-title">From Strategy to<span class="text-gradient">Scalable Success</span></h2>
-        <p class="section-subtitle mx-auto text-center">A structured, collaborative approach that transforms ideas into reliable digital solutions built for long-term business growth.</p>
-      </div>
+            <div class="text-center mb-5" data-aos="fade-up">
+              <div class="section-tag mx-auto">How We Work</div>
+              <h2 class="section-title">From Strategy to<span class="text-gradient">Scalable Success</span></h2>
+              <p class="section-subtitle mx-auto text-center">A structured, collaborative approach that transforms ideas into reliable digital solutions built for long-term business growth.</p>
+            </div>
 
-      <div class="row g-4">
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-          <div class="process-step">
-            <div class="process-step-number">01</div>
-            <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Discover & Strategize</h2>
-            <p class="process-step-text mb-0">We begin by understanding your business, challenges, users, and objectives to define a clear technology strategy and project roadmap.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="process-step">
-            <div class="process-step-number">02</div>
-            <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Design & Architect</h2>
-            <p class="process-step-text mb-0">We transform ideas into intuitive experiences and scalable technical architectures, ensuring every solution is built with purpose and precision.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="process-step">
-            <div class="process-step-number">03</div>
-            <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Develop & Validate</h2>
-            <p class="process-step-text mb-0">Our expert team develops your solution through agile workflows, rigorous quality assurance, and continuous testing for reliable performance.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-          <div class="process-step">
-            <div class="process-step-number">04</div>
-            <h2 class="process-step-title h4">Launch & Evolve</h2>
-            <p class="process-step-text mb-0">We ensure a seamless launch and provide ongoing support, optimization, and enhancements to help your technology grow with your business.</p>
-          </div>
-        </div>
-      </div>
+            <div class="row g-4">
+              <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+                <div class="process-step">
+                  <div class="process-step-number">01</div>
+                  <div class="process-step-connector"></div>
+                  <h2 class="process-step-title h4">Discover & Strategize</h2>
+                  <p class="process-step-text mb-0">We begin by understanding your business, challenges, users, and objectives to define a clear technology strategy and project roadmap.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="process-step">
+                  <div class="process-step-number">02</div>
+                  <div class="process-step-connector"></div>
+                  <h2 class="process-step-title h4">Design & Architect</h2>
+                  <p class="process-step-text mb-0">We transform ideas into intuitive experiences and scalable technical architectures, ensuring every solution is built with purpose and precision.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="process-step">
+                  <div class="process-step-number">03</div>
+                  <div class="process-step-connector"></div>
+                  <h2 class="process-step-title h4">Develop & Validate</h2>
+                  <p class="process-step-text mb-0">Our expert team develops your solution through agile workflows, rigorous quality assurance, and continuous testing for reliable performance.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="process-step">
+                  <div class="process-step-number">04</div>
+                  <h2 class="process-step-title h4">Launch & Evolve</h2>
+                  <p class="process-step-text mb-0">We ensure a seamless launch and provide ongoing support, optimization, and enhancements to help your technology grow with your business.</p>
+                </div>
+              </div>
+            </div>
 
-    </div>
-  </section>
+          </div>
+      </section>
 
   <!-- Technologies -->
   <section class="section-py section-bg-light">

@@ -1,0 +1,16 @@
+<?php
+
+function getBaseUrl(): string
+{
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+        ? 'https'
+        : 'http';
+
+    $host = $_SERVER['HTTP_HOST'];
+
+    return $protocol . '://' . $host . '/html/innotelltech/';
+}
+
+$baseUrl = getBaseUrl();
+
+?>

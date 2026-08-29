@@ -1,6 +1,8 @@
     <?php
        
         include_once ('elements/header.php');
+        include_once('includes/services-data.php'); 
+        
     ?> 
 
   <!-- ============================================================
@@ -114,7 +116,7 @@
   <!-- ============================================================
        CLIENTS MARQUEE
        ============================================================ -->
-  <div class="clients-section">
+  <div class="clients-section d-none">
     <div class="container-fluid px-4">
       <div class="d-flex align-items-center overflow-hidden gap-4">
         <span class="clients-label d-none d-md-block">TRUSTED BY</span>
@@ -221,164 +223,236 @@
 
           <div class="row g-4">
 
-                     <?php
-                          $serviceArr = [
+                  <?php
+                        $serviceArr = [
 
-                              [
-                                  'service-title' => 'Custom Software Development',
-                                  'icon' => 'bi-code-slash',
-                                  'service-text' => 'Build secure, scalable, and customized software solutions designed around your business processes, requirements, and long-term goals.',
-                                  'service-feature-tag' => [
-                                      'Custom Software',
-                                      'Web Applications',
-                                      'Enterprise Solutions'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'custom-software-development',
+                                'service-title' => 'Custom Software Development',
+                                'icon' => 'bi-code-slash',
+                                'service-text' => 'Build secure, scalable, and customized software solutions designed around your business processes, requirements, and long-term goals.',
+                                'service-feature-tag' => [
+                                    'Custom Software',
+                                    'Web Applications',
+                                    'Enterprise Solutions'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'Web Development',
-                                  'icon' => 'bi-globe2',
-                                  'service-text' => 'Create modern, responsive, and high-performance websites and web applications that strengthen your digital presence and deliver seamless user experiences.',
-                                  'service-feature-tag' => [
-                                      'Business Websites',
-                                      'Web Applications',
-                                      'E-Commerce'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'web-development',
+                                'service-title' => 'Web Development',
+                                'icon' => 'bi-globe2',
+                                'service-text' => 'Create modern, responsive, and high-performance websites and web applications that strengthen your digital presence and deliver seamless user experiences.',
+                                'service-feature-tag' => [
+                                    'Business Websites',
+                                    'Web Applications',
+                                    'E-Commerce'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'Mobile App Development',
-                                  'icon' => 'bi-phone',
-                                  'service-text' => 'Develop intuitive and reliable mobile applications that help businesses connect with customers, teams, and services across Android and iOS platforms.',
-                                  'service-feature-tag' => [
-                                      'Android',
-                                      'iOS',
-                                      'Cross-Platform'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'mobile-applications',
+                                'service-title' => 'Mobile Applications',
+                                'icon' => 'bi-phone',
+                                'service-text' => 'Develop intuitive and reliable mobile applications that help businesses connect with customers, teams, and services across Android and iOS platforms.',
+                                'service-feature-tag' => [
+                                    'Android',
+                                    'iOS',
+                                    'Cross-Platform'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'AI & Automation Solutions',
-                                  'icon' => 'bi-robot',
-                                  'service-text' => 'Integrate intelligent automation and AI-powered capabilities to reduce repetitive tasks, improve productivity, and make business operations smarter.',
-                                  'service-feature-tag' => [
-                                      'AI Solutions',
-                                      'Automation',
-                                      'Smart Workflows'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'ai-machine-learning',
+                                'service-title' => 'AI & Machine Learning',
+                                'icon' => 'bi-robot',
+                                'service-text' => 'Transform business operations with intelligent AI and machine learning solutions that automate processes, uncover insights, and support smarter decision-making.',
+                                'service-feature-tag' => [
+                                    'AI Solutions',
+                                    'Machine Learning',
+                                    'Automation'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'CRM & Business Solutions',
-                                  'icon' => 'bi-people',
-                                  'service-text' => 'Develop customized CRM and business management solutions to organize customers, streamline operations, and improve internal workflows.',
-                                  'service-feature-tag' => [
-                                      'CRM Systems',
-                                      'Business Management',
-                                      'Workflow Solutions'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'crm-business-solutions',
+                                'service-title' => 'CRM & Business Solutions',
+                                'icon' => 'bi-people',
+                                'service-text' => 'Develop customized CRM and business management solutions that organize customer data, streamline workflows, and improve operational efficiency.',
+                                'service-feature-tag' => [
+                                    'CRM Systems',
+                                    'Business Management',
+                                    'Workflow Solutions'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'UI/UX Design',
-                                  'icon' => 'bi-palette',
-                                  'service-text' => 'Design intuitive, engaging, and user-focused digital experiences that combine beautiful interfaces with effortless usability and meaningful interactions.',
-                                  'service-feature-tag' => [
-                                      'UI Design',
-                                      'UX Design',
-                                      'Prototyping'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'ui-ux-design',
+                                'service-title' => 'UI/UX Design',
+                                'icon' => 'bi-palette',
+                                'service-text' => 'Design intuitive, engaging, and user-focused digital experiences that combine compelling visual design with seamless usability.',
+                                'service-feature-tag' => [
+                                    'UI Design',
+                                    'UX Design',
+                                    'Prototyping'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'Cloud & IT Solutions',
-                                  'icon' => 'bi-cloud-check',
-                                  'service-text' => 'Implement reliable cloud and IT solutions that improve scalability, security, accessibility, and overall technology performance.',
-                                  'service-feature-tag' => [
-                                      'Cloud Solutions',
-                                      'IT Infrastructure',
-                                      'Security'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'cloud-devops',
+                                'service-title' => 'Cloud & DevOps',
+                                'icon' => 'bi-cloud-check',
+                                'service-text' => 'Build scalable, secure, and reliable cloud environments with modern DevOps practices that improve deployment speed, infrastructure efficiency, and application availability.',
+                                'service-feature-tag' => [
+                                    'Cloud Solutions',
+                                    'DevOps',
+                                    'Infrastructure'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'Digital Transformation',
-                                  'icon' => 'bi-arrow-repeat',
-                                  'service-text' => 'Modernize business processes with innovative technologies and connected digital solutions that improve efficiency and create new opportunities for growth.',
-                                  'service-feature-tag' => [
-                                      'Digital Strategy',
-                                      'Process Modernization',
-                                      'Technology Consulting'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'cybersecurity',
+                                'service-title' => 'Cybersecurity',
+                                'icon' => 'bi-shield-check',
+                                'service-text' => 'Protect applications, systems, and business data with practical cybersecurity solutions focused on risk reduction, security, compliance, and resilience.',
+                                'service-feature-tag' => [
+                                    'Security Audits',
+                                    'Data Protection',
+                                    'Risk Management'
+                                ],
+                            ],
 
-                              [
-                                  'service-title' => 'IT Consulting & Support',
-                                  'icon' => 'bi-headset',
-                                  'service-text' => 'Get practical technology guidance and ongoing IT support to optimize your systems, solve technical challenges, and keep your business moving forward.',
-                                  'service-feature-tag' => [
-                                      'IT Consulting',
-                                      'Technical Support',
-                                      'System Optimization'
-                                  ],
-                              ],
+                            [
+                                'slug' => 'data-engineering',
+                                'service-title' => 'Data Engineering',
+                                'icon' => 'bi-database',
+                                'service-text' => 'Design reliable data pipelines and scalable data platforms that help businesses collect, process, manage, and utilize information effectively.',
+                                'service-feature-tag' => [
+                                    'Data Pipelines',
+                                    'Data Platforms',
+                                    'Data Integration'
+                                ],
+                            ],
 
-                          ];
+                            [
+                                'slug' => 'custom-software-development',
+                                'service-title' => 'Custom Software Development',
+                                'icon' => 'bi-code-slash',
+                                'service-text' => 'Build secure, scalable, and customized software solutions designed around your business processes, requirements, and long-term goals.',
+                                'service-feature-tag' => [
+                                    'Custom Software',
+                                    'Enterprise Solutions',
+                                    'Business Applications'
+                                ],
+                            ],
 
-                          foreach ($serviceArr as $service) {
-                          ?>
+                            [
+                                'slug' => 'business-automation',
+                                'service-title' => 'Business Automation',
+                                'icon' => 'bi-gear-wide-connected',
+                                'service-text' => 'Automate repetitive tasks and business workflows to reduce manual effort, improve accuracy, and increase operational productivity.',
+                                'service-feature-tag' => [
+                                    'Workflow Automation',
+                                    'Process Automation',
+                                    'Smart Operations'
+                                ],
+                            ],
 
-                              <div class="col-md-6 col-lg-4"
-                                  data-aos="fade-up"
-                                  data-aos-delay="0">
+                            [
+                                'slug' => 'api-system-integration',
+                                'service-title' => 'API & System Integration',
+                                'icon' => 'bi-diagram-3',
+                                'service-text' => 'Connect applications, platforms, APIs, and third-party services to create seamless data flow and efficient connected business ecosystems.',
+                                'service-feature-tag' => [
+                                    'API Integration',
+                                    'Third-Party Integration',
+                                    'System Connectivity'
+                                ],
+                            ],
 
-                                  <div class="service-card">
+                            [
+                                'slug' => 'digital-transformation',
+                                'service-title' => 'Digital Transformation',
+                                'icon' => 'bi-arrow-repeat',
+                                'service-text' => 'Modernize business operations with connected digital technologies, optimized processes, and innovative solutions designed for sustainable growth.',
+                                'service-feature-tag' => [
+                                    'Digital Strategy',
+                                    'Process Modernization',
+                                    'Technology Consulting'
+                                ],
+                            ],
 
-                                      <!-- Service Icon -->
-                                      <div class="service-icon">
-                                          <i class="bi <?= htmlspecialchars($service['icon']) ?>"></i>
+                            [
+                                'slug' => 'analytics-business-intelligence',
+                                'service-title' => 'Analytics & Business Intelligence',
+                                'icon' => 'bi-bar-chart-line',
+                                'service-text' => 'Turn business data into actionable insights through intelligent dashboards, reporting, analytics, and data-driven decision-making solutions.',
+                                'service-feature-tag' => [
+                                    'Business Analytics',
+                                    'BI Dashboards',
+                                    'Data Insights'
+                                ],
+                            ],
+
+                        ];
+
+                        foreach ($serviceArr as $service) {
+                      ?>
+
+                          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+
+                              <div class="service-card">
+
+                                  <!-- Service Icon -->
+                                  <div class="service-icon">
+                                      <i class="bi <?= htmlspecialchars($service['icon']) ?>"></i>
+                                  </div>
+
+                                  <!-- Service Title -->
+                                  <h3 class="service-title">
+                                      <?= htmlspecialchars($service['service-title']) ?>
+                                  </h3>
+
+                                  <!-- Service Description -->
+                                  <p class="service-text">
+                                      <?= htmlspecialchars($service['service-text']) ?>
+                                  </p>
+
+                                  <!-- Service Link -->
+                                  <a href="service-single.php?service=<?= urlencode($service['slug']) ?>" class="svc-card-link">
+
+                                      Explore Service
+
+                                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                          <path d="M5 12h14M12 5l7 7-7 7"/>
+                                      </svg>
+
+                                  </a>
+
+                                  <!-- Service Tags -->
+                                  <?php if (!empty($service['service-feature-tag'])) { ?>
+
+                                      <div class="service-features">
+
+                                          <?php foreach ($service['service-feature-tag'] as $tag) { ?>
+
+                                              <span class="service-feature-tag">
+                                                  <?= htmlspecialchars($tag) ?>
+                                              </span>
+
+                                          <?php } ?>
+
                                       </div>
 
-                                      <!-- Service Title -->
-                                      <h3 class="service-title">
-                                          <?= htmlspecialchars($service['service-title']) ?>
-                                      </h3>
-
-                                      <!-- Service Description -->
-                                      <p class="service-text">
-                                          <?= htmlspecialchars($service['service-text']) ?>
-                                      </p>
-
-                                      <!-- Service Link -->
-                                      <a href="service-single.php" class="service-link">
-                                          Learn More
-                                          <i class="fa-solid fa-arrow-right"></i>
-                                      </a>
-
-                                      <!-- Service Tags -->
-                                      <?php if (!empty($service['service-feature-tag'])) { ?>
-
-                                          <div class="service-features">
-
-                                              <?php foreach ($service['service-feature-tag'] as $tag) { ?>
-
-                                                  <span class="service-feature-tag">
-                                                      <?= htmlspecialchars($tag) ?>
-                                                  </span>
-
-                                              <?php } ?>
-
-                                          </div>
-
-                                      <?php } ?>
-
-                                  </div>
+                                  <?php } ?>
 
                               </div>
 
-                          <?php
-                          }
-                      ?>
+                          </div>
+
+                      <?php
+                      }
+                  ?>
 
          </div>
 
