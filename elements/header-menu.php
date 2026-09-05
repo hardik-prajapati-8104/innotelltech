@@ -9,13 +9,13 @@
         <div class="container">
         <div class="d-flex align-items-center justify-content-between">
 
-            <a href="/" class="navbar-brand text-decoration-none">
-            <img src="assets/img/logo.png" alt="NexVera" class="navbar-logo-img" width="260px;" height="42">
+            <a href="index.php" class="navbar-brand text-decoration-none">
+            <img src="assets/img/Innotell_Full_Logo.png" alt="NexVera" class="navbar-logo-img" width="260px;" height="42">
             </a>
 
             <nav class="main-nav d-flex align-items-center gap-1">
             
-                <a href="/" class="nav-link nav-link-parent">Home</a>
+                <a href="index.php" class="nav-link nav-link-parent">Home</a>
             
                 <a href="portfolio.php" class="nav-link nav-link-parent">Projects</a>
                 <a href="blog.php" class="nav-link nav-link-parent">Blogs</a>

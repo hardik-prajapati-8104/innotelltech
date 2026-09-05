@@ -11,7 +11,7 @@
     <?php include 'includes/seo-meta.php'; ?>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="icon" type="image/png" href="assets/img/Innotell_Favicon.png" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />

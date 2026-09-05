@@ -7,7 +7,7 @@
 
         <!-- Brand -->
         <div class="col-lg-4">
-          <a href="index.php" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-footer.png" alt="NexVera" class="footer-logo-img" width="260" height="auto"></a>
+          <a href="index.php" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/Innotell_Full_Logo.png" alt="NexVera" class="footer-logo-img" width="260" height="auto"></a>
           <p class="footer-desc">Building reliable, scalable, and innovative digital solutions that help businesses streamline operations, strengthen their digital presence, and accelerate sustainable growth.</p>
           <div class="footer-social">
             <a href="javascript:void();" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
@@ -79,7 +79,7 @@
     <button class="info-panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
     <div class="info-panel-logo">
         <a href="index.php" class="navbar-brand text-decoration-none">
-          <img src="assets/img/logo.png" alt="NexVera" class="navbar-logo-img" width="154" height="42">
+          <img src="assets/img/Innotell_Full_Logo.png" alt="NexVera" class="navbar-logo-img" width="180" height="42">
         </a>
     </div>
     <div class="info-panel-divider"></div>
@@ -94,7 +94,7 @@
           </svg></div>
         <div>
           <div class="info-panel-contact-label">Phone</div>
-          <div class="info-panel-contact-value">+1 (555) 123-4567</div>
+          <div class="info-panel-contact-value"><a href="tel:+971507741552">+971507741552</a></div>
         </div>
       </div>
       <div class="info-panel-contact-item">
@@ -106,7 +106,7 @@
           </svg></div>
         <div>
           <div class="info-panel-contact-label">Email</div>
-          <div class="info-panel-contact-value">hello@nexvera.com</div>
+          <div class="info-panel-contact-value"><a href="mailto:info@innotelltech.com">info@innotelltech.com</a></div>
         </div>
       </div>
       <div class="info-panel-contact-item">
@@ -121,7 +121,10 @@
           </svg></div>
         <div>
           <div class="info-panel-contact-label">Address</div>
-          <div class="info-panel-contact-value">123 Innovation Ave, SF, CA 94105</div>
+          <div class="info-panel-contact-value">
+            <p><strong>Hong Kong:</strong> 25 B Nam Hoi Mansion 2 Tai Wing Avenue, Taikoo Shing Quarry Bay Hong Kong</p>
+            <p><strong>UAE(United Arab Emirates):</strong>Business center,sharjah publishing city free zone.sharjah,united Arab Emirates</p>
+          </div>
         </div>
       </div>
       <div class="info-panel-contact-item">
@@ -133,7 +136,7 @@
           </svg></div>
         <div>
           <div class="info-panel-contact-label">Hours</div>
-          <div class="info-panel-contact-value">Mon–Fri, 9:00 AM – 6:00 PM</div>
+          <div class="info-panel-contact-value">Mon–Fri, 9:00 AM – 7:00 PM</div>
         </div>
       </div>
     </div>

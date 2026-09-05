@@ -25,8 +25,10 @@
   <!-- Info Cards -->
   <section class="section-py pb-0">
     <div class="container">
+
       <div class="row g-4 justify-content-center">
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
           <div class="contact-info-card">
             <div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -35,11 +37,11 @@
                   stroke="currentColor" stroke-width="1.46667" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg></div>
             <h1 class="h5">Email Us</h1>
-            <p><a href="mailto:hello@nexvera.io">hello@nexvera.io</a><br /><a
-                href="mailto:careers@nexvera.io">careers@nexvera.io</a></p>
+            <p><a href="mailto: info@innotelltech.com"> info@innotelltech.com</a><br />
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
           <div class="contact-info-card">
             <div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -48,25 +50,11 @@
                   stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg></div>
             <h1 class="h5">Call Us</h1>
-            <p><a href="tel:+14158204400">+1 (415) 820-4400</a><br />Mon&ndash;Fri, 9 am&ndash;6 pm PST</p>
+            <p><a href="tel:+971507741552">+971507741552</a></p>
           </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
-          <div class="contact-info-card">
-            <div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M19.9998 10.0606C19.9998 16.8485 11.3332 22.6667 11.3332 22.6667C11.3332 22.6667 2.6665 16.8485 2.6665 10.0606C2.6665 7.746 3.5796 5.52618 5.20491 3.8895C6.83023 2.25282 9.03463 1.33334 11.3332 1.33334C13.6317 1.33334 15.8361 2.25282 17.4614 3.8895C19.0867 5.52618 19.9998 7.746 19.9998 10.0606Z"
-                  stroke="currentColor" stroke-width="1.73333" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path
-                  d="M11.3332 12.9697C12.9287 12.9697 14.2221 11.6673 14.2221 10.0606C14.2221 8.45397 12.9287 7.15153 11.3332 7.15153C9.73768 7.15153 8.44428 8.45397 8.44428 10.0606C8.44428 11.6673 9.73768 12.9697 11.3332 12.9697Z"
-                  stroke="currentColor" stroke-width="1.73333" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg></div>
-            <h1 class="h5">Visit Us</h1>
-            <p>340 Pine St, Suite 800<br />San Francisco, CA 94104</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+        </div> 
+
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="240">
           <div class="contact-info-card">
             <div class="contact-info-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                 viewBox="0 0 640 640">
@@ -74,11 +62,32 @@
                   d="M528 320C528 434.9 434.9 528 320 528C205.1 528 112 434.9 112 320C112 205.1 205.1 112 320 112C434.9 112 528 205.1 528 320zM64 320C64 461.4 178.6 576 320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320zM296 184L296 320C296 328 300 335.5 306.7 340L402.7 404C413.7 411.4 428.6 408.4 436 397.3C443.4 386.2 440.4 371.4 429.3 364L344 307.2L344 184C344 170.7 333.3 160 320 160C306.7 160 296 170.7 296 184z"
                   fill="currentColor"></path>
               </svg></div>
-            <h1 class="h5">Response Time</h1>
-            <p>We reply within 24 hours<br />Usually much faster</p>
+            <h1 class="h5">Fast Support</h1>
+            <p>Quick help when you need it.</p>
           </div>
         </div>
+
+        
       </div>
+      <div class="row g-4 justify-content-center mt-3">
+            <div class="col-sm-12 col-lg-12" data-aos="fade-up" data-aos-delay="160">
+             <div class="contact-info-card">
+               <div class="contact-info-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                   <path
+                     d="M19.9998 10.0606C19.9998 16.8485 11.3332 22.6667 11.3332 22.6667C11.3332 22.6667 2.6665 16.8485 2.6665 10.0606C2.6665 7.746 3.5796 5.52618 5.20491 3.8895C6.83023 2.25282 9.03463 1.33334 11.3332 1.33334C13.6317 1.33334 15.8361 2.25282 17.4614 3.8895C19.0867 5.52618 19.9998 7.746 19.9998 10.0606Z"
+                     stroke="currentColor" stroke-width="1.73333" stroke-linecap="round" stroke-linejoin="round"></path>
+                   <path
+                     d="M11.3332 12.9697C12.9287 12.9697 14.2221 11.6673 14.2221 10.0606C14.2221 8.45397 12.9287 7.15153 11.3332 7.15153C9.73768 7.15153 8.44428 8.45397 8.44428 10.0606C8.44428 11.6673 9.73768 12.9697 11.3332 12.9697Z"
+                     stroke="currentColor" stroke-width="1.73333" stroke-linecap="round" stroke-linejoin="round"></path>
+                 </svg></div>
+               <h1 class="h5">Visit Us</h1>
+               <p><strong>Hong Kong:</strong> 25 B Nam Hoi Mansion 2 Tai Wing Avenue, Taikoo Shing Quarry Bay Hong Kong</p>
+               <p><strong>UAE(United Arab Emirates):</strong>Business center,sharjah publishing city free zone.sharjah,united Arab Emirates</p>
+             </div>
+           </div>
+      </div>
+
     </div>
   </section>
 
@@ -171,19 +180,15 @@
 
           <!-- Map -->
           <div class="contact-map-wrap mb-4">
-            <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4244%2C37.7910%2C-122.4044%2C37.8010&amp;layer=mapnik&amp;marker=37.7960%2C-122.4144"
-              height="300" class="map-iframe" allowfullscreen="" loading="lazy"
-              title="NexVera Office Location">
-            </iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7789192733194!2d114.21758237688206!3d22.286362979696555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404010054b05ab3%3A0x6430b2f9b058942b!2sKwun%20Hoi%20Terrace%20Nam%20Hoi%20Mansion!5e0!3m2!1sen!2sin!4v1788585720064!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </div>
 
           <!-- Office Hours -->
           <div class="contact-hours-card mb-4">
             <h2 class="sw-cf-title h5">Office Hours</h2>
             <ul class="contact-hours-list">
-              <li><span>Monday &ndash; Friday</span><span>9:00 AM &ndash; 6:00 PM PST</span></li>
-              <li><span>Saturday</span><span>10:00 AM &ndash; 2:00 PM PST</span></li>
+              <li><span>Monday &ndash; Friday</span><span>9:00 AM &ndash; 7:00 PM</span></li>
+              <li><span>Saturday</span><span>10:00 AM &ndash; 2:00 PM </span></li>
               <li><span>Sunday</span><span class="contact-hours-closed">Closed</span></li>
             </ul>
             <p class="mt-3 mb-0 contact-hours-note">For enterprise clients, 24/7 dedicated support is available through
