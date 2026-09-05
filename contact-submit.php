@@ -119,7 +119,7 @@ $email_body = "
         </h2>
 
         <p>
-            A new enquiry has been submitted through the Adhira Tech website.
+            A new enquiry has been submitted through the Innotell Technologies website.
         </p>
 
         <hr>
@@ -167,7 +167,7 @@ $email_body = "
         <hr>
 
         <p style='font-size:13px; color:#777;'>
-            This enquiry was submitted through the Adhira Tech website contact form.
+            This enquiry was submitted through the Innotell Technologies website contact form.
         </p>
 
     </div>
@@ -185,7 +185,7 @@ $email_body = "
 
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-$headers .= "From: Adhira Tech Website <info@innotelltech.com>\r\n";
+$headers .= "From: Innotell Technologies <info@innotelltech.com>\r\n";
 $headers .= "Reply-To: {$email}\r\n";
 
 

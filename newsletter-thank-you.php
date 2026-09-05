@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+</head>
+
+<body>
+
+    <h1>Thank You!</h1>
+
+    <p>
+        You have successfully subscribed to our newsletter.
+    </p>
+
+    <a href="index.php">Back to Website</a>
+
+</body>
+</html>
