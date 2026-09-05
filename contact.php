@@ -104,7 +104,7 @@
             <p class="section-subtitle mb-4">Fill in the form and one of our senior engineers will review your project
               and respond personally &mdash; not a template, not a bot.</p>
 
-            <form class="contact-form-el php-email-form" action="assets/contact.php" method="POST">
+            <form class="contact-form-el php-email-form" action="contact-submit.php" method="POST">
               <div class="row g-4">
                 <div class="col-sm-6">
                   <label class="contact-form-label" for="contact-fname">First Name *</label>
@@ -172,6 +172,7 @@
                 </div>
               </div>
             </form>
+
           </div>
         </div>
 
