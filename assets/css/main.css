@@ -301,15 +301,12 @@ p {
 }
 
 .section-subtitle {
-  max-width: 540px;
+  /* max-width: 540px; */
   line-height: 1.75;
   color: var(--tmv-color-text-secondary);
   font-size: var(--tmv-fs-base);
 }
-
-.section-subtitle.mx-auto {
-  max-width: 600px;
-}
+ 
 @media(max-width: 480px){
   .cta-section .section-tag{
     font-size: var(--tmv-fs-xs);

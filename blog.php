@@ -1,6 +1,5 @@
     <?php
-       
-        include_once ('elements/header.php');
+       include_once ('elements/header.php');
     ?> 
 
   <!-- Page Hero -->
@@ -176,44 +175,37 @@
 
             <!-- Card 5 -->
             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="0">
-
-              <div class="blog-card">
-                <div class="blog-card-img-wrap">
-                  <img src="assets/img/blog/blog-6.jpg" alt="PostgreSQL Indexing" class="blog-card-img"
-                    loading="lazy" />
-                </div>
-                <div class="blog-card-body">
-                  <div class="blog-post-category"> Database</div>
-                  <a href="blog-single.php">
-                    <h2 class="blog-card-title h4">PostgreSQL at Scale: Indexing Strategies
-                      for 100M+ Row Tables</h2>
-                  </a>
-                  <p class="blog-card-excerpt">Query performance dropped from 4s to 18ms. Here's the full breakdown
-                    of the indexing decisions that made it happen.</p>
-                  <div class="blog-card-meta">
-                    <div class="blog-meta-author">
-                      <img src="assets/img/avatars/user-2.jpg" alt="David Park"
-                        class="blog-meta-avatar" loading="lazy" />
-                      <a href="#"><span class="blog-meta-name">David Park</span></a>
+                <div class="blog-card">
+                    <div class="blog-card-img-wrap">
+                    <img src="assets/img/blog/blog-6.jpg" alt="PostgreSQL Indexing" class="blog-card-img" loading="lazy" />
                     </div>
-                    <span class="blog-meta-read"><i class="fa-regular fa-calendar"></i> Apr 15, 2025</span>
-                  </div>
+                    <div class="blog-card-body">
+                        <div class="blog-post-category"> Database</div>
+                        <a href="blog-single.php">
+                            <h2 class="blog-card-title h4">PostgreSQL at Scale: Indexing Strategies for 100M+ Row Tables</h2>
+                        </a>
+                        <p class="blog-card-excerpt">Query performance dropped from 4s to 18ms. Here's the full breakdown of the indexing decisions that made it happen.</p>
+                        <div class="blog-card-meta">
+                            <div class="blog-meta-author">
+                                <img src="assets/img/avatars/user-2.jpg" alt="David Park" class="blog-meta-avatar" loading="lazy" />
+                                <a href="#"><span class="blog-meta-name">David Park</span></a>
+                            </div>
+                            <span class="blog-meta-read"><i class="fa-regular fa-calendar"></i> Apr 15, 2025</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
 
             <!-- Card 6 -->
             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="80">
               <div class="blog-card">
                 <div class="blog-card-img-wrap">
-                  <img src="assets/img/blog/blog-7.jpg" alt="Product Discovery" class="blog-card-img"
-                    loading="lazy" />
+                  <img src="assets/img/blog/blog-7.jpg" alt="Product Discovery" class="blog-card-img" loading="lazy" />
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> Product</div>
                   <a href="blog-single.php">
-                    <h2 class="blog-card-title h4">The Product Discovery Mistakes That Kill
-                      Most SaaS Products</h2>
+                    <h2 class="blog-card-title h4">The Product Discovery Mistakes That Kill Most SaaS Products</h2>
                   </a>
                   <p class="blog-card-excerpt">After 240+ product builds, we've seen the same fatal mistakes over
                     and over. Here's how to avoid them in your next sprint.</p>
@@ -232,7 +224,7 @@
           </div><!-- /row g-4 -->
 
           <!-- Pagination -->
-          <nav class="blog-pag-nav" data-aos="fade-up" aria-label="Blog pages">
+          <nav class="blog-pag-nav d-none" data-aos="fade-up" aria-label="Blog pages">
             <a href="#" class="blog-pag-btn active">1</a>
             <a href="#" class="blog-pag-btn">2</a>
             <a href="#" class="blog-pag-btn">3</a>
@@ -261,19 +253,19 @@
             <div class="sw">
               <div class="sw-title">Categories</div>
               <ul class="sw-cats">
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">Engineering</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">Engineering</span><span
                       class="sw-cat-count">18</span></a></li>
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">AI &amp; Machine Learning</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">AI &amp; Machine Learning</span><span
                       class="sw-cat-count">12</span></a></li>
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">DevOps &amp; Cloud</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">DevOps &amp; Cloud</span><span
                       class="sw-cat-count">9</span></a></li>
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">Product &amp; Strategy</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">Product &amp; Strategy</span><span
                       class="sw-cat-count">7</span></a></li>
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">Design</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">Design</span><span
                       class="sw-cat-count">6</span></a></li>
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">Database</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">Database</span><span
                       class="sw-cat-count">5</span></a></li>
-                <li><a href="#" class="sw-cat"><span class="sw-cat-name">Security</span><span
+                <li><a href="javascript:void();" class="sw-cat"><span class="sw-cat-name">Security</span><span
                       class="sw-cat-count">4</span></a></li>
               </ul>
             </div>
@@ -311,18 +303,18 @@
             <div class="sw">
               <div class="sw-title">Popular Tags</div>
               <div class="sw-tags">
-                <a href="#" class="sw-tag">Next.js</a>
-                <a href="#" class="sw-tag">TypeScript</a>
-                <a href="#" class="sw-tag">AI / LLM</a>
-                <a href="#" class="sw-tag">Kubernetes</a>
-                <a href="#" class="sw-tag">React</a>
-                <a href="#" class="sw-tag">PostgreSQL</a>
-                <a href="#" class="sw-tag">DevOps</a>
-                <a href="#" class="sw-tag">Cloud</a>
-                <a href="#" class="sw-tag">UX Design</a>
-                <a href="#" class="sw-tag">Security</a>
-                <a href="#" class="sw-tag">Product</a>
-                <a href="#" class="sw-tag">Node.js</a>
+                <a href="javascript:void();" class="sw-tag">Next.js</a>
+                <a href="javascript:void();" class="sw-tag">TypeScript</a>
+                <a href="javascript:void();" class="sw-tag">AI / LLM</a>
+                <a href="javascript:void();" class="sw-tag">Kubernetes</a>
+                <a href="javascript:void();" class="sw-tag">React</a>
+                <a href="javascript:void();" class="sw-tag">PostgreSQL</a>
+                <a href="javascript:void();" class="sw-tag">DevOps</a>
+                <a href="javascript:void();" class="sw-tag">Cloud</a>
+                <a href="javascript:void();" class="sw-tag">UX Design</a>
+                <a href="javascript:void();" class="sw-tag">Security</a>
+                <a href="javascript:void();" class="sw-tag">Product</a>
+                <a href="javascript:void();" class="sw-tag">Node.js</a>
               </div>
             </div>
 

@@ -1,7 +1,8 @@
 
     <?php
-        include_once ('elements/header.php');
-    ?> 
+      require_once __DIR__ . '/includes/portfolio-data.php';
+      include_once ('elements/header.php');
+    ?>
 
   <!-- Page Hero -->
   <section class="page-hero">
@@ -25,169 +26,51 @@
   <!-- Portfolio -->
   <section class="section-py">
     <div class="container">
-      <div class="text-center mb-5" data-aos="fade-up">
-        <div class="section-tag">Our Work</div>
-        <h2 class="section-title">Selected <span class="text-gradient">Case Studies</span></h2>
-        <p class="section-subtitle mx-auto">A curated selection of our most impactful projects across industries.</p>
-      </div>
-      <!-- Filter Buttons -->
-      <div class="portfolio-filters mb-5" data-aos="fade-up" data-aos-delay="100">
-        <button class="portfolio-filter-btn active" data-filter="*">All Projects</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-web">Web Apps</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-mobile">Mobile</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-ai">AI & ML</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-cloud">Cloud</button>
-        <button class="portfolio-filter-btn" data-filter=".cat-design">UI/UX</button>
-      </div>
 
-      <!-- Grid -->
-      <div class="portfolio-grid" id="portfolio-grid">
-        <!-- Item 1 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-web cat-ai" data-aos="fade-up">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-1.jpg" alt="FinTrack Dashboard" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Web App AI</div>
-                <div class="portfolio-card-title">FinTrack Dashboard</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
+        <div class="text-center mb-5" data-aos="fade-up">
+          <div class="section-tag">Our Work</div>
+          <h2 class="section-title">Selected <span class="text-gradient">Case Studies</span></h2>
+          <p class="section-subtitle mx-auto">A curated selection of our most impactful projects across industries.</p>
         </div>
 
-        <!-- Item 2 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-mobile" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-2.jpg" alt="Pulse Health App" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Mobile iOS & Android</div>
-                <div class="portfolio-card-title">Pulse Health App</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
+        <!-- Filter Buttons -->
+        <div class="portfolio-filters mb-5" data-aos="fade-up" data-aos-delay="100">
+          <button class="portfolio-filter-btn active" data-filter="*">All Projects</button>
+          <?php foreach ($portfolioFilters as $filterClass => $filterLabel) { ?>
+            <button class="portfolio-filter-btn" data-filter=".<?= htmlspecialchars($filterClass, ENT_QUOTES, 'UTF-8') ?>">
+              <?= htmlspecialchars($filterLabel, ENT_QUOTES, 'UTF-8') ?>
+            </button>
+          <?php } ?>
         </div>
-        <!-- Item 3 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-cloud cat-web" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-3.jpg" alt="AuroraMart" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">E-Commerce Cloud</div>
-                <div class="portfolio-card-title">AuroraMart Platform</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Item 4 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-ai" data-aos="fade-up">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-4.jpg" alt="VisionSort AI" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">AI Computer Vision</div>
-                <div class="portfolio-card-title">VisionSort AI System</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Item 5 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-design cat-web" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-5.jpg" alt="Zena SaaS" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">SaaS UI/UX</div>
-                <div class="portfolio-card-title">Zena SaaS Platform</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Item 6 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-cloud" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-6.jpg" alt="CloudNest" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Cloud DevOps</div>
-                <div class="portfolio-card-title">CloudNest Infrastructure</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Item 7 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-mobile cat-design" data-aos="fade-up">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-7.jpg" alt="Nomad App" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Mobile UI/UX</div>
-                <div class="portfolio-card-title">Nomad Travel App</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Item 8 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-web cat-design" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-8.jpg" alt="Orbit CMS" class="portfolio-card-img" loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">Web App Design</div>
-                <div class="portfolio-card-title">Orbit Content Platform</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Item 9 -->
-        <div class="col-md-6 col-lg-4 portfolio-item cat-ai cat-cloud" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.php" class="portfolio-card d-block">
-            <img src="assets/img/portfolio/port-9.jpg" alt="Synthex AI" class="portfolio-card-img"
-              loading="lazy" />
-            <div class="portfolio-card-overlay">
-              <div class="portfolio-card-info">
-                <div class="portfolio-card-cat">AI Data Engineering</div>
-                <div class="portfolio-card-title">Synthex Data Engine</div>
-                <div class="portfolio-card-actions">
-                  <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
 
-      <!-- Load More -->
-      <div class="text-center mt-5" data-aos="fade-up">
-        <button class="btn-outline-custom">Load More Projects <i class="fa-solid fa-arrow-down"></i></button>
-      </div>
+        <!-- Grid -->
+        <div class="portfolio-grid" id="portfolio-grid">
+          <?php foreach ($portfolioItems as $portfolio) { ?>
+            <div class="col-md-6 col-lg-4 portfolio-item <?= htmlspecialchars($portfolio['filters'], ENT_QUOTES, 'UTF-8') ?>"
+              data-aos="fade-up" data-aos-delay="<?= htmlspecialchars($portfolio['delay'], ENT_QUOTES, 'UTF-8') ?>">
+              <a href="<?= htmlspecialchars($portfolio['url'] . '?project=' . urlencode($portfolio['slug']), ENT_QUOTES, 'UTF-8') ?>" class="portfolio-card d-block">
+                <img src="<?= htmlspecialchars($portfolio['image'], ENT_QUOTES, 'UTF-8') ?>"
+                  alt="<?= htmlspecialchars($portfolio['title'], ENT_QUOTES, 'UTF-8') ?>" class="portfolio-card-img" loading="lazy" />
+                <div class="portfolio-card-overlay">
+                  <div class="portfolio-card-info">
+                    <div class="portfolio-card-cat"><?= htmlspecialchars($portfolio['category'], ENT_QUOTES, 'UTF-8') ?></div>
+                    <div class="portfolio-card-title"><?= htmlspecialchars($portfolio['title'], ENT_QUOTES, 'UTF-8') ?></div>
+                    <div class="portfolio-card-actions">
+                      <span class="portfolio-card-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <?php } ?>
+
+        </div>
+
+        <!-- Load More -->
+        <div class="text-center mt-5" data-aos="fade-up">
+          <button class="btn-outline-custom">Load More Projects <i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+
     </div>
   </section>
 
@@ -253,6 +136,6 @@
     </div>
   </section>
 
-    <?php
-      include_once ('elements/footer.php')
+  <?php
+    include_once ('elements/footer.php')
   ?>

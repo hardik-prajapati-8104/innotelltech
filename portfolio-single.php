@@ -1,7 +1,19 @@
-4    <?php
-       
-        include_once ('elements/header.php');
-    ?> 
+<?php
+    require_once __DIR__ . '/includes/portfolio-data.php';
+
+    $projectSlug = $_GET['project'] ?? $portfolioItems[0]['slug'];
+    $project = $portfolioItems[0];
+
+    foreach ($portfolioItems as $portfolioItem) {
+        if ($portfolioItem['slug'] === $projectSlug) {
+            $project = $portfolioItem;
+            break;
+        }
+    }
+
+    $details = $project['details'];
+    include_once ('elements/header.php');
+?>
 
   <!-- Page Hero -->
   <section class="page-hero page-hero--blog">
@@ -9,15 +21,15 @@
     <div class="page-hero-blob page-hero-blob-2"></div>
     <div class="container">
       <div class="page-hero-content" data-aos="fade-up">
-        <div class="page-hero-tag">Web App &middot; AI &amp; ML &middot; FinTech</div>
-        <h1 class="page-hero-title">FinTrack Dashboard</h1>
-        <p class="page-hero-text">From a crumbling 12-year-old PHP codebase to a real-time AI analytics platform processing $2 billion in daily transactions.</p>
+        <div class="page-hero-tag"><?= htmlspecialchars($details['tag'], ENT_QUOTES, 'UTF-8') ?></div>
+        <h1 class="page-hero-title"><?= htmlspecialchars($project['title'], ENT_QUOTES, 'UTF-8') ?></h1>
+        <p class="page-hero-text"><?= htmlspecialchars($details['summary'], ENT_QUOTES, 'UTF-8') ?></p>
         <nav class="breadcrumb-custom mt-4">
           <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom"><a href="portfolio.php">Portfolio</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
-          <div class="breadcrumb-item-custom active">FinTrack Dashboard</div>
+          <div class="breadcrumb-item-custom active"><?= htmlspecialchars($project['title'], ENT_QUOTES, 'UTF-8') ?></div>
         </nav>
       </div>
     </div>
@@ -28,118 +40,113 @@
     <div class="container">
       <div class="row g-5">
 
-          <!-- Cover image -->
-          <div class="col-lg-12">
+        <!-- Cover image -->
+        <div class="col-lg-12">
           <div class="article-cover" data-aos="fade-up">
-            <a href="assets/img/portfolio/port-1.jpg" class="glightbox" data-gallery="proj-gallery" data-description="FinTrack Dashboard &mdash; Main Overview">
-              <img src="assets/img/portfolio/port-1.jpg" alt="FinTrack Dashboard overview" loading="lazy" />
+            <a href="<?= htmlspecialchars($project['image'], ENT_QUOTES, 'UTF-8') ?>" class="glightbox" data-gallery="proj-gallery"
+              data-description="<?= htmlspecialchars($project['title'], ENT_QUOTES, 'UTF-8') ?> - Main Overview">
+              <img src="<?= htmlspecialchars($project['image'], ENT_QUOTES, 'UTF-8') ?>"
+                alt="<?= htmlspecialchars($project['title'], ENT_QUOTES, 'UTF-8') ?> overview" loading="lazy" />
             </a>
           </div>
-          </div>
+        </div>
+
         <!-- Article column -->
         <div class="col-lg-8">
-
-          <!-- Article body -->
           <div class="article-body" data-aos="fade-up">
+            <p class="article-lead"><?= htmlspecialchars($details['lead'], ENT_QUOTES, 'UTF-8') ?></p>
 
-            <p class="article-lead">FinTrack came to NexVera with a critical problem: their legacy financial dashboard was built on a 12-year-old PHP codebase that was crashing under load, costing $400K per year just to maintain, and completely unable to process real-time data.</p>
-
-            <h2>The Challenge</h2>
-            <p>Leadership issued a bold mandate: rebuild the entire platform in under 6 months, maintain 100% data fidelity during migration, and add AI-powered forecasting&mdash;all while keeping the existing system live for 8,000 daily active enterprise users.</p>
+            <h2><?= htmlspecialchars($details['challenge_title'], ENT_QUOTES, 'UTF-8') ?></h2>
+            <p><?= htmlspecialchars($details['challenge'], ENT_QUOTES, 'UTF-8') ?></p>
             <ul class="article-list">
-              <li><strong>$400K annual maintenance burden</strong> from vendor lock-in, custom patches, and 12 years of technical debt</li>
-              <li><strong>Zero real-time capability</strong> &mdash; batch jobs running every 4 hours meant enterprise clients made decisions on stale data</li>
-              <li><strong>8,000 users, zero downtime allowed</strong> &mdash; enterprise SLAs made a &ldquo;big bang&rdquo; cutover impossible</li>
-              <li><strong>14 third-party integrations</strong> wired directly into monolithic code with no documented contracts</li>
+              <?php foreach ($details['challenge_points'] as $point) { ?>
+                <li><?= htmlspecialchars($point, ENT_QUOTES, 'UTF-8') ?></li>
+              <?php } ?>
             </ul>
 
-            <h2>Our Approach</h2>
-            <p>We ran a 4-week Discovery sprint before writing a single line of new code&mdash;fully mapping data architecture, API contracts, and user journeys across all 14 financial data providers.</p>
+            <h2><?= htmlspecialchars($details['approach_title'], ENT_QUOTES, 'UTF-8') ?></h2>
+            <p><?= htmlspecialchars($details['approach'], ENT_QUOTES, 'UTF-8') ?></p>
             <ol class="article-list">
-              <li><strong>Discovery Sprint</strong> &mdash; Full audit of data flows and API contracts. Produced a zero-ambiguity technical blueprint in 4 weeks.</li>
-              <li><strong>Strangler-Fig Migration</strong> &mdash; Incremental module shipping with progressive traffic routing. Zero-downtime migration over 18 weeks.</li>
-              <li><strong>AI Forecasting Module</strong> &mdash; Fine-tuned TimesGPT on 8 years of historical data, achieving 94% accuracy on 30-day cash-flow forecasts.</li>
-              <li><strong>Cohort Rollout &amp; QA</strong> &mdash; Feature-flagged rollout with live rollback. 100% data fidelity verified at every migration stage.</li>
+              <?php foreach ($details['approach_points'] as $point) { ?>
+                <li><?= htmlspecialchars($point, ENT_QUOTES, 'UTF-8') ?></li>
+              <?php } ?>
             </ol>
 
-            <h2>Project Gallery</h2>
-            <div class="proj-gallery-grid">
-              <a href="assets/img/portfolio/port-4.jpg" class="proj-gallery-item glightbox" data-gallery="proj-gallery" data-description="AI Forecasting module &mdash; 30-day cash-flow prediction charts">
-                <img src="assets/img/portfolio/port-4.jpg" alt="AI Forecasting Module" loading="lazy" />
-              </a>
-              <a href="assets/img/portfolio/port-5.jpg" class="proj-gallery-item glightbox" data-gallery="proj-gallery" data-description="Mobile responsive view &mdash; iOS and Android optimised">
-                <img src="assets/img/portfolio/port-5.jpg" alt="Mobile View" loading="lazy" />
-              </a>
-            </div>
+            <?php if (!empty($details['gallery'])) { ?>
+              <h2>Project Gallery</h2>
+              <div class="proj-gallery-grid">
+                <?php foreach ($details['gallery'] as $galleryItem) { ?>
+                  <a href="<?= htmlspecialchars($galleryItem['image'], ENT_QUOTES, 'UTF-8') ?>" class="proj-gallery-item glightbox"
+                    data-gallery="proj-gallery" data-description="<?= htmlspecialchars($galleryItem['description'], ENT_QUOTES, 'UTF-8') ?>">
+                    <img src="<?= htmlspecialchars($galleryItem['image'], ENT_QUOTES, 'UTF-8') ?>"
+                      alt="<?= htmlspecialchars($galleryItem['alt'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy" />
+                  </a>
+                <?php } ?>
+              </div>
+            <?php } ?>
 
-            <blockquote class="article-blockquote">
-              <p>&ldquo;NexVera didn&rsquo;t just rebuild our platform &mdash; they transformed our product entirely. The AI forecasting alone has become our biggest sales differentiator. We closed a $3M enterprise deal last month where the buyer specifically cited it.&rdquo;</p>
-              <cite>Marcus Webb &mdash; Chief Executive Officer, FinTrack Inc.</cite>
-            </blockquote>
+            <?php if ($details['quote'] !== '') { ?>
+              <blockquote class="article-blockquote">
+                <p><?= htmlspecialchars($details['quote'], ENT_QUOTES, 'UTF-8') ?></p>
+                <cite><?= htmlspecialchars($details['quote_author'], ENT_QUOTES, 'UTF-8') ?></cite>
+              </blockquote>
+            <?php } ?>
 
             <h2>The Results</h2>
-            <p>Delivered in 6 months. Maintained 100% data fidelity throughout. Zero unplanned downtime on launch day.</p>
+            <p><?= htmlspecialchars($details['results_summary'], ENT_QUOTES, 'UTF-8') ?></p>
             <div class="proj-results-row">
-              <div class="proj-result-cell">
-                <div class="proj-result-num">340%</div>
-                <div class="proj-result-label">User Engagement</div>
-                <p class="proj-result-desc">Daily active sessions surged within 60 days of launch</p>
-              </div>
-              <div class="proj-result-cell">
-                <div class="proj-result-num">99.99%</div>
-                <div class="proj-result-label">Platform Uptime</div>
-                <p class="proj-result-desc">Maintained across 8,000 enterprise users with no SLA penalties</p>
-              </div>
-              <div class="proj-result-cell">
-                <div class="proj-result-num">60%</div>
-                <div class="proj-result-label">Cost Reduction</div>
-                <p class="proj-result-desc">From $400K annual maintenance to under $160K</p>
-              </div>
+              <?php foreach ($details['results'] as $result) { ?>
+                <div class="proj-result-cell">
+                  <div class="proj-result-num"><?= htmlspecialchars($result['value'], ENT_QUOTES, 'UTF-8') ?></div>
+                  <div class="proj-result-label"><?= htmlspecialchars($result['label'], ENT_QUOTES, 'UTF-8') ?></div>
+                  <p class="proj-result-desc"><?= htmlspecialchars($result['description'], ENT_QUOTES, 'UTF-8') ?></p>
+                </div>
+              <?php } ?>
             </div>
-
-          </div><!-- /article-body -->
-
-        </div><!-- /col-lg-8 -->
+          </div>
+        </div>
 
         <!-- Sidebar -->
         <div class="col-lg-4">
           <aside data-aos="fade-left" data-aos-delay="100">
-
-            <!-- Project Details -->
             <div class="sw mb-4">
               <div class="sw-title">Project Details</div>
               <ul class="proj-details-list">
                 <li class="proj-details-item">
                   <span class="proj-details-key">Client</span>
-                  <span class="proj-details-val">FinTrack Inc.</span>
+                  <span class="proj-details-val"><?= htmlspecialchars($details['client'], ENT_QUOTES, 'UTF-8') ?></span>
                 </li>
                 <li class="proj-details-item">
                   <span class="proj-details-key">Category</span>
-                  <span class="proj-details-val">Web App &bull; AI</span>
+                  <span class="proj-details-val"><?= htmlspecialchars($project['category'], ENT_QUOTES, 'UTF-8') ?></span>
                 </li>
                 <li class="proj-details-item">
                   <span class="proj-details-key">Year</span>
-                  <span class="proj-details-val">2024</span>
+                  <span class="proj-details-val"><?= htmlspecialchars($details['year'], ENT_QUOTES, 'UTF-8') ?></span>
                 </li>
                 <li class="proj-details-item">
                   <span class="proj-details-key">Duration</span>
-                  <span class="proj-details-val">6 Months</span>
+                  <span class="proj-details-val"><?= htmlspecialchars($details['duration'], ENT_QUOTES, 'UTF-8') ?></span>
                 </li>
                 <li class="proj-details-item">
                   <span class="proj-details-key">Team Size</span>
-                  <span class="proj-details-val">10 People</span>
+                  <span class="proj-details-val"><?= htmlspecialchars($details['team_size'], ENT_QUOTES, 'UTF-8') ?></span>
                 </li>
                 <li class="proj-details-item">
                   <span class="proj-details-key">Location</span>
-                  <span class="proj-details-val">New York, USA</span>
+                  <span class="proj-details-val"><?= htmlspecialchars($details['location'], ENT_QUOTES, 'UTF-8') ?></span>
                 </li>
-                <li class="proj-details-item">
-                  <span class="proj-details-key">Live URL</span>
-                  <span class="proj-details-val"><a href="#">fintrack.io <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
-                </li>
+                <?php if ($details['live_url'] !== '') { ?>
+                  <li class="proj-details-item">
+                    <span class="proj-details-key">Live URL</span>
+                    <span class="proj-details-val"><a href="<?= htmlspecialchars($details['live_url'], ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener">
+                      <?= htmlspecialchars(parse_url($details['live_url'], PHP_URL_HOST), ENT_QUOTES, 'UTF-8') ?> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
+                  </li>
+                <?php } ?>
               </ul>
             </div>
-        <!-- Contact CTA -->
+
+            <!-- Contact CTA -->
             <div class="sw-contact-cta">
               <div class="sw-contact-cta-glow"></div>
               <div class="sw-contact-cta-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.98.5-2.5 0-3l-3-3c-.5-.5-2.02-.71-3 0z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg></div>
@@ -152,11 +159,10 @@
               </div>
             </div>
           </aside>
-        </div><!-- /col-lg-4 -->
+        </div>
 
       </div>
     </div>
   </section>
-  <?php
-      include_once ('elements/footer.php')
-  ?>
+
+  <?php include_once ('elements/footer.php'); ?>

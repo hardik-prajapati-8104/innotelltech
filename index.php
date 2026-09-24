@@ -1,7 +1,8 @@
     <?php
        
         include_once ('elements/header.php');
-        include_once('includes/services-data.php'); 
+        include_once('includes/services-data.php');
+        include_once('includes/portfolio-data.php');
         
     ?> 
 
@@ -556,80 +557,6 @@
   <!-- ============================================================
        PORTFOLIO
        ============================================================ -->
-  <?php
-
-    $portfolioArr = [
-
-        [
-            'title' => 'Business Management Platform',
-            'category' => 'Web Solutions',
-            'category-label' => 'Web Application',
-            'filter' => 'cat-web',
-            'image' => 'assets/img/portfolio/port-1.jpg',
-            'alt' => 'Business Management Web Application',
-            'url' => 'portfolio-single.php',
-            'delay' => '0',
-        ],
-
-        [
-            'title' => 'Customer Mobile Application',
-            'category' => 'Mobile Apps',
-            'category-label' => 'Mobile Application',
-            'filter' => 'cat-mobile',
-            'image' => 'assets/img/portfolio/port-2.jpg',
-            'alt' => 'Customer Mobile Application',
-            'url' => 'portfolio-single.php',
-            'delay' => '100',
-        ],
-
-        [
-            'title' => 'AI-Powered Business Solution',
-            'category' => 'Business Software',
-            'category-label' => 'AI & Automation',
-            'filter' => 'cat-ai',
-            'image' => 'assets/img/portfolio/port-3.jpg',
-            'alt' => 'AI Powered Business Solution',
-            'url' => 'portfolio-single.php',
-            'delay' => '200',
-        ],
-
-        [
-            'title' => 'Enterprise UI/UX Design',
-            'category' => 'UI/UX',
-            'category-label' => 'UI/UX Design',
-            'filter' => 'cat-design',
-            'image' => 'assets/img/portfolio/port-4.jpg',
-            'alt' => 'Enterprise UI UX Design',
-            'url' => 'portfolio-single.php',
-            'delay' => '0',
-        ],
-
-        [
-            'title' => 'Business Automation Platform',
-            'category' => 'Business Software',
-            'category-label' => 'Business Automation',
-            'filter' => 'cat-web cat-ai',
-            'image' => 'assets/img/portfolio/port-5.jpg',
-            'alt' => 'Business Automation Platform',
-            'url' => 'portfolio-single.php',
-            'delay' => '100',
-        ],
-
-        [
-            'title' => 'Travel & Service Mobile App',
-            'category' => 'Mobile Apps',
-            'category-label' => 'Mobile Application',
-            'filter' => 'cat-mobile cat-design',
-            'image' => 'assets/img/portfolio/port-6.jpg',
-            'alt' => 'Travel and Service Mobile Application',
-            'url' => 'portfolio-single.php',
-            'delay' => '200',
-        ],
-
-    ];
-
-  ?>
-
   <section class="section-py" id="portfolio">
 
       <div class="container">
@@ -648,7 +575,7 @@
                   </span>
               </h2>
 
-              <p class="section-subtitle mx-auto">
+              <p class="section-subtitle">
                   Explore a selection of digital solutions we've designed and
                   developed to help businesses improve operations, engage
                   customers, and achieve their technology goals.
@@ -668,29 +595,13 @@
                   All Projects
               </button>
 
-              <button
-                  class="portfolio-filter-btn"
-                  data-filter=".cat-web">
-                  Web Solutions
-              </button>
-
-              <button
-                  class="portfolio-filter-btn"
-                  data-filter=".cat-mobile">
-                  Mobile Apps
-              </button>
-
-              <button
-                  class="portfolio-filter-btn"
-                  data-filter=".cat-ai">
-                  Business Software
-              </button>
-
-              <button
-                  class="portfolio-filter-btn"
-                  data-filter=".cat-design">
-                  UI/UX
-              </button>
+                <?php foreach ($portfolioFilters as $filterClass => $filterLabel) { ?>
+                  <button
+                    class="portfolio-filter-btn"
+                    data-filter=".<?= htmlspecialchars($filterClass, ENT_QUOTES, 'UTF-8') ?>">
+                    <?= htmlspecialchars($filterLabel, ENT_QUOTES, 'UTF-8') ?>
+                  </button>
+                <?php } ?>
 
           </div>
 
@@ -698,23 +609,23 @@
           <!-- Portfolio Grid -->
           <div class="portfolio-grid row gx-4">
 
-              <?php foreach ($portfolioArr as $portfolio) { ?>
+              <?php foreach ($portfolioItems as $portfolio) { ?>
 
                   <div
-                      class="col-md-6 col-lg-4 portfolio-item <?= htmlspecialchars($portfolio['filter']) ?>"
+                      class="col-md-6 col-lg-4 portfolio-item <?= htmlspecialchars($portfolio['filters'], ENT_QUOTES, 'UTF-8') ?>"
                       data-aos="fade-up"
-                      data-aos-delay="<?= htmlspecialchars($portfolio['delay']) ?>"
+                      data-aos-delay="<?= htmlspecialchars($portfolio['delay'], ENT_QUOTES, 'UTF-8') ?>"
                   >
 
                       <a
-                          href="<?= htmlspecialchars($portfolio['url']) ?>"
+                          href="<?= htmlspecialchars($portfolio['url'] . '?project=' . urlencode($portfolio['slug']), ENT_QUOTES, 'UTF-8') ?>"
                           class="portfolio-card d-block"
                       >
 
                           <!-- Portfolio Image -->
                           <img
-                              src="<?= htmlspecialchars($portfolio['image']) ?>"
-                              alt="<?= htmlspecialchars($portfolio['alt']) ?>"
+                              src="<?= htmlspecialchars($portfolio['image'], ENT_QUOTES, 'UTF-8') ?>"
+                              alt="<?= htmlspecialchars($portfolio['title'], ENT_QUOTES, 'UTF-8') ?>"
                               class="portfolio-card-img"
                               loading="lazy"
                           >
@@ -727,12 +638,12 @@
 
                                   <!-- Category -->
                                   <div class="portfolio-card-cat">
-                                      <?= htmlspecialchars($portfolio['category-label']) ?>
+                                      <?= htmlspecialchars($portfolio['category'], ENT_QUOTES, 'UTF-8') ?>
                                   </div>
 
                                   <!-- Title -->
                                   <div class="portfolio-card-title">
-                                      <?= htmlspecialchars($portfolio['title']) ?>
+                                      <?= htmlspecialchars($portfolio['title'], ENT_QUOTES, 'UTF-8') ?>
                                   </div>
 
                                   <!-- Action -->
