@@ -13,7 +13,7 @@
         <h1 class="page-hero-title">Building Digital Solutions That Drive <br />Business Growth</h1>
         <p class="page-hero-text">We build reliable, scalable, and future-ready digital solutions that help businesses streamline operations, strengthen their digital presence, and achieve sustainable growth.</p>
         <nav class="breadcrumb-custom">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">About</div>
         </nav>

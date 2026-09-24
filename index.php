@@ -872,7 +872,7 @@
 
       ?>
 
-      <section class="section-py testimonials-section"> 
+      <section class="section-py testimonials-section d-none"> 
           <div class="container">
 
               <!-- Section Heading -->

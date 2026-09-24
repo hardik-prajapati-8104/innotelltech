@@ -14,7 +14,7 @@
         <p class="page-hero-text">Deep dives on AI, architecture, product strategy, and the future of software from
           people building it daily.</p>
         <nav class="breadcrumb-custom">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">Blog</div>
         </nav>
@@ -32,14 +32,14 @@
 
           <!-- Featured Post -->
           <article class="blog-featured mb-5" data-aos="fade-up">
-            <a href="blog-single.html" class="blog-featured-media">
+            <a href="blog-single.php" class="blog-featured-media">
               <img src="assets/img/blog/blog-1.jpg" alt="AI-First Architecture" loading="lazy" />
               <div class="blog-featured-img-overlay"></div>
             </a>
             <div class="blog-featured-content">
               <div class="blog-post-category">AI &amp; Architecture</div>
               <h2 class="blog-featured-title">
-                <a href="blog-single.html">Why AI-First Architecture Will Define Software Products in 2026 and
+                <a href="blog-single.php">Why AI-First Architecture Will Define Software Products in 2026 and
                   Beyond</a>
               </h2>
               <p class="blog-featured-excerpt">The companies that will dominate the next decade aren't just using AI —
@@ -54,7 +54,7 @@
                     <div class="blog-author-chip-meta">May 12, 2025 &middot; 9 min read</div>
                   </div>
                 </div>
-                <a href="blog-single.html" class="blog-read-link">Read Article <i
+                <a href="blog-single.php" class="blog-read-link">Read Article <i
                     class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> Engineering</div>
-                  <a href="blog-single.html">
+                  <a href="blog-single.php">
                     <h2 class="blog-card-title h4">React Server Components: The Complete
                       Production Guide</h2>
                   </a>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> Devops</div>
-                  <a href="blog-single.html">
+                  <a href="blog-single.php">
                     <h2 class="blog-card-title h4">Kubernetes Cost Optimization: 7 Strategies
                       That Actually Work</h2>
                   </a>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> AI & ML</div>
-                  <a href="blog-single.html">
+                  <a href="blog-single.php">
                     <h2 class="blog-card-title h4">LLM Fine-Tuning: 7 Strategies
                       That Actually Work</h2>
                   </a>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> Design</div>
-                  <a href="blog-single.html">
+                  <a href="blog-single.php">
                     <h2 class="blog-card-title h4">Building a Design System That Engineers
                       Actually Love to Use</h2>
                   </a>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> Database</div>
-                  <a href="blog-single.html">
+                  <a href="blog-single.php">
                     <h2 class="blog-card-title h4">PostgreSQL at Scale: Indexing Strategies
                       for 100M+ Row Tables</h2>
                   </a>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="blog-card-body">
                   <div class="blog-post-category"> Product</div>
-                  <a href="blog-single.html">
+                  <a href="blog-single.php">
                     <h2 class="blog-card-title h4">The Product Discovery Mistakes That Kill
                       Most SaaS Products</h2>
                   </a>
@@ -282,7 +282,7 @@
             <div class="sw">
               <div class="sw-title">Recent Posts</div>
               <div class="sw-recent">
-                <a href="blog-single.html" class="sw-recent-item">
+                <a href="blog-single.php" class="sw-recent-item">
                   <img src="assets/img/blog/blog-1.jpg" alt="AI Architecture" class="sw-recent-img"
                     loading="lazy" />
                   <div class="sw-recent-info">
@@ -290,14 +290,14 @@
                     <div class="sw-recent-date"><i class="fa-regular fa-calendar"></i> May 12, 2025</div>
                   </div>
                 </a>
-                <a href="blog-single.html" class="sw-recent-item">
+                <a href="blog-single.php" class="sw-recent-item">
                   <img src="assets/img/blog/blog-2.jpg" alt="React RSC" class="sw-recent-img" loading="lazy" />
                   <div class="sw-recent-info">
                     <div class="sw-recent-title">React Server Components: The Production Guide</div>
                     <div class="sw-recent-date"><i class="fa-regular fa-calendar"></i> May 8, 2025</div>
                   </div>
                 </a>
-                <a href="blog-single.html" class="sw-recent-item">
+                <a href="blog-single.php" class="sw-recent-item">
                   <img src="assets/img/blog/blog-3.jpg" alt="Kubernetes" class="sw-recent-img" loading="lazy" />
                   <div class="sw-recent-info">
                     <div class="sw-recent-title">Kubernetes Cost Optimization: 7 Proven Strategies</div>
@@ -333,7 +333,7 @@
               <h2 class="sw-contact-cta-title h4">Have a Project in Mind?</h2>
               <p class="sw-contact-cta-text">Let's build something great together. Our team is ready to turn your idea
                 into reality.</p>
-              <a href="contact.html" class="sw-contact-cta-btn">Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="contact.php" class="sw-contact-cta-btn">Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
               <div class="sw-contact-cta-meta">
                 <span><i class="fa-regular fa-clock"></i> Response within 24 hrs</span>
                 <span><i class="fa-solid fa-shield-halved"></i> Free consultation</span>

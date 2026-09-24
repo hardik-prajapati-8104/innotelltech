@@ -14,7 +14,7 @@
         <p class="page-hero-text">From seed-stage startups to Fortune 500 enterprises every project gets the same
           obsessive attention to quality.</p>
         <nav class="breadcrumb-custom">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">Portfolio</div>
         </nav>
@@ -44,7 +44,7 @@
       <div class="portfolio-grid" id="portfolio-grid">
         <!-- Item 1 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-web cat-ai" data-aos="fade-up">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-1.jpg" alt="FinTrack Dashboard" class="portfolio-card-img"
               loading="lazy" />
             <div class="portfolio-card-overlay">
@@ -61,7 +61,7 @@
 
         <!-- Item 2 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-mobile" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-2.jpg" alt="Pulse Health App" class="portfolio-card-img"
               loading="lazy" />
             <div class="portfolio-card-overlay">
@@ -77,7 +77,7 @@
         </div>
         <!-- Item 3 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-cloud cat-web" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-3.jpg" alt="AuroraMart" class="portfolio-card-img" loading="lazy" />
             <div class="portfolio-card-overlay">
               <div class="portfolio-card-info">
@@ -92,7 +92,7 @@
         </div>
         <!-- Item 4 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-ai" data-aos="fade-up">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-4.jpg" alt="VisionSort AI" class="portfolio-card-img"
               loading="lazy" />
             <div class="portfolio-card-overlay">
@@ -108,7 +108,7 @@
         </div>
         <!-- Item 5 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-design cat-web" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-5.jpg" alt="Zena SaaS" class="portfolio-card-img" loading="lazy" />
             <div class="portfolio-card-overlay">
               <div class="portfolio-card-info">
@@ -123,7 +123,7 @@
         </div>
         <!-- Item 6 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-cloud" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-6.jpg" alt="CloudNest" class="portfolio-card-img" loading="lazy" />
             <div class="portfolio-card-overlay">
               <div class="portfolio-card-info">
@@ -138,7 +138,7 @@
         </div>
         <!-- Item 7 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-mobile cat-design" data-aos="fade-up">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-7.jpg" alt="Nomad App" class="portfolio-card-img" loading="lazy" />
             <div class="portfolio-card-overlay">
               <div class="portfolio-card-info">
@@ -153,7 +153,7 @@
         </div>
         <!-- Item 8 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-web cat-design" data-aos="fade-up" data-aos-delay="100">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-8.jpg" alt="Orbit CMS" class="portfolio-card-img" loading="lazy" />
             <div class="portfolio-card-overlay">
               <div class="portfolio-card-info">
@@ -168,7 +168,7 @@
         </div>
         <!-- Item 9 -->
         <div class="col-md-6 col-lg-4 portfolio-item cat-ai cat-cloud" data-aos="fade-up" data-aos-delay="200">
-          <a href="portfolio-single.html" class="portfolio-card d-block">
+          <a href="portfolio-single.php" class="portfolio-card d-block">
             <img src="assets/img/portfolio/port-9.jpg" alt="Synthex AI" class="portfolio-card-img"
               loading="lazy" />
             <div class="portfolio-card-overlay">
@@ -246,8 +246,8 @@
         <p class="cta-text">Join 180+ companies that trust NexVera to build their most ambitious technology products.
         </p>
         <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
-          <a href="contact.html" class="btn-white-custom">Start Your Project <i class="fa-solid fa-arrow-right"></i></a>
-          <a href="pricing.html" class="btn-ghost-white">View Pricing</a>
+          <a href="contact.php" class="btn-white-custom">Start Your Project <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="pricing.php" class="btn-ghost-white">View Pricing</a>
         </div>
       </div>
     </div>

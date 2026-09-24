@@ -14,7 +14,7 @@
         <h1 class="page-hero-title">Every Great Project<br />Starts With a Conversation</h1>
         <p class="page-hero-text">Tell us about your project, business goals, or technology requirements. Our team will review your needs and get back to you with the right solution and a clear path forward.</p>
         <nav class="breadcrumb-custom">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">Contact</div>
         </nav>

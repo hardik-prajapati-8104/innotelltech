@@ -13,7 +13,7 @@
         <h1 class="page-hero-title">Built by Exceptional People,<br />For Exceptional Products</h1>
         <p class="page-hero-text">80+ engineers, designers, and strategists across 14 countries&mdash;united by a love of craft and an obsession with shipping things that matter.</p>
         <nav class="breadcrumb-custom">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">Our Team</div>
         </nav>
@@ -354,7 +354,7 @@
               Learning &amp; development budget
             </div>
           </div>
-          <a href="contact.html" class="btn-primary-custom mt-4 d-inline-flex">View Open Positions <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          <a href="contact.php" class="btn-primary-custom mt-4 d-inline-flex">View Open Positions <i class="fa-solid fa-arrow-right ms-2"></i></a>
         </div>
         <div class="col-lg-5" data-aos="fade-left">
           <div class="join-img-grid">
@@ -376,8 +376,8 @@
         <h2 class="cta-title">Ready to work with this team on your project?</h2>
         <p class="cta-text">Tell us what you need and we&rsquo;ll match you with the right engineers and designers from day one.</p>
         <div class="cta-actions">
-          <a href="contact.html" class="btn-white-custom">Start a Project</a>
-          <a href="portfolio.html" class="btn-ghost-white">See Our Work</a>
+          <a href="contact.php" class="btn-white-custom">Start a Project</a>
+          <a href="portfolio.php" class="btn-ghost-white">See Our Work</a>
         </div>
       </div>
     </div>

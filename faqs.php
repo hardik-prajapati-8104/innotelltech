@@ -13,7 +13,7 @@
         <h1 class="page-hero-title">Frequently Asked <br />Questions</h1>
         <p class="page-hero-text">Everything you need to know about working with NexVera — from getting started to scaling your team.</p>
         <nav class="breadcrumb-custom">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">FAQs</div>
         </nav>
@@ -418,8 +418,8 @@
         <h2 class="cta-title">Turn Your Vision Into a <br class="d-none d-md-block"> Powerful Digital Solution. </h2>
         <p class="cta-text">Partner with Innotell Tech to transform complex challenges into innovative, scalable, and high-performing technology solutions built for long-term growth.</p>
         <div class="cta-actions">
-          <a href="contact.html" class="btn-white-custom">Talk to Our Experts</a>
-          <a href="pricing.html" class="btn-ghost-white">View Our Solutions</a>
+          <a href="contact.php" class="btn-white-custom">Talk to Our Experts</a>
+          <a href="pricing.php" class="btn-ghost-white">View Our Solutions</a>
         </div>
       </div>
     </div>

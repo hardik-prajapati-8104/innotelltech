@@ -22,9 +22,9 @@
           </div>
         </div>
         <nav class="breadcrumb-custom mt-4">
-          <div class="breadcrumb-item-custom"><a href="index.html">Home</a></div>
+          <div class="breadcrumb-item-custom"><a href="index.php">Home</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
-          <div class="breadcrumb-item-custom"><a href="blog.html">Blog</a></div>
+          <div class="breadcrumb-item-custom"><a href="blog.php">Blog</a></div>
           <span class="breadcrumb-sep"><i class="fa-solid fa-chevron-right"></i></span>
           <div class="breadcrumb-item-custom active">Microservices Article</div>
         </nav>
@@ -174,11 +174,11 @@
 
           <!-- Prev / Next Navigation -->
           <div class="article-post-nav" data-aos="fade-up">
-            <a href="blog-single.html" class="article-nav-item">
+            <a href="blog-single.php" class="article-nav-item">
               <div class="article-nav-label"><i class="fa-solid fa-arrow-left"></i> Previous</div>
               <div class="article-nav-title">React Server Components: The Complete Production Guide</div>
             </a>
-            <a href="blog-single.html" class="article-nav-item article-nav-item--next">
+            <a href="blog-single.php" class="article-nav-item article-nav-item--next">
               <div class="article-nav-label">Next <i class="fa-solid fa-arrow-right"></i></div>
               <div class="article-nav-title">Fine-Tuning LLMs for Enterprise: Lessons From 14 Models</div>
             </a>
@@ -311,7 +311,7 @@
             <div class="sw">
               <div class="sw-title">Recent Posts</div>
               <div class="sw-recent">
-                <a href="blog-single.html" class="sw-recent-item">
+                <a href="blog-single.php" class="sw-recent-item">
                   <img src="assets/img/blog/blog-2.jpg" alt="AI Architecture" class="sw-recent-img"
                     loading="lazy" />
                   <div class="sw-recent-info">
@@ -319,14 +319,14 @@
                     <div class="sw-recent-date"><i class="fa-regular fa-calendar"></i> May 12, 2025</div>
                   </div>
                 </a>
-                <a href="blog-single.html" class="sw-recent-item">
+                <a href="blog-single.php" class="sw-recent-item">
                   <img src="assets/img/blog/blog-3.jpg" alt="React RSC" class="sw-recent-img" loading="lazy" />
                   <div class="sw-recent-info">
                     <div class="sw-recent-title">React Server Components: The Production Guide</div>
                     <div class="sw-recent-date"><i class="fa-regular fa-calendar"></i> May 8, 2025</div>
                   </div>
                 </a>
-                <a href="blog-single.html" class="sw-recent-item">
+                <a href="blog-single.php" class="sw-recent-item">
                   <img src="assets/img/blog/blog-4.jpg" alt="Kubernetes" class="sw-recent-img" loading="lazy" />
                   <div class="sw-recent-info">
                     <div class="sw-recent-title">Kubernetes Cost Optimization: 7 Proven Strategies</div>
@@ -361,7 +361,7 @@
               <div class="sw-contact-cta-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.98.5-2.5 0-3l-3-3c-.5-.5-2.02-.71-3 0z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg></div>
               <h2 class="sw-contact-cta-title h4">Have a Project in Mind?</h2>
               <p class="sw-contact-cta-text">Let's build something great together. Our team is ready to turn your idea into reality.</p>
-              <a href="contact.html" class="sw-contact-cta-btn">Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="contact.php" class="sw-contact-cta-btn">Get in Touch <i class="fa-solid fa-arrow-right"></i></a>
               <div class="sw-contact-cta-meta">
                 <span><i class="fa-regular fa-clock"></i> Response within 24 hrs</span>
                 <span><i class="fa-solid fa-shield-halved"></i> Free consultation</span>
