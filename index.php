@@ -272,19 +272,7 @@
                                     'Machine Learning',
                                     'Automation'
                                 ],
-                            ],
-
-                            [
-                                'slug' => 'crm-business-solutions',
-                                'service-title' => 'CRM & Business Solutions',
-                                'icon' => 'bi-people',
-                                'service-text' => 'Develop customized CRM and business management solutions that organize customer data, streamline workflows, and improve operational efficiency.',
-                                'service-feature-tag' => [
-                                    'CRM Systems',
-                                    'Business Management',
-                                    'Workflow Solutions'
-                                ],
-                            ],
+                            ], 
 
                             [
                                 'slug' => 'ui-ux-design',
@@ -332,19 +320,7 @@
                                     'Data Platforms',
                                     'Data Integration'
                                 ],
-                            ],
-
-                            [
-                                'slug' => 'custom-software-development',
-                                'service-title' => 'Custom Software Development',
-                                'icon' => 'bi-code-slash',
-                                'service-text' => 'Build secure, scalable, and customized software solutions designed around your business processes, requirements, and long-term goals.',
-                                'service-feature-tag' => [
-                                    'Custom Software',
-                                    'Enterprise Solutions',
-                                    'Business Applications'
-                                ],
-                            ],
+                            ], 
 
                             [
                                 'slug' => 'business-automation',
